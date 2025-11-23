@@ -1,0 +1,311 @@
+[
+    {
+        "Day": "1",
+        "Lesson": "Bài 1 - Bảng chữ cái",
+        "Goal": "Study new signs",
+        "Signs": ["A", "Ă", "Â", "B", "C", "D", "Đ", "E", "Ê"],
+        "Assigments": "Revise"
+    },
+    {
+        "Day": "2",
+        "Lesson": "Bài 1 - Bảng chữ cái",
+        "Goal": "Study new signs",
+        "Signs": ["G", "H", "I", "K", "L", "M", "N", "O", "Ô"] ,
+        "Assigments": "Revise"
+    },
+    {
+        "Day": "3",
+        "Lesson": "Bài 1 - Bảng chữ cái",
+        "Goal": "Study new signs",
+        "Signs": ["Ơ", "P", "Q", "R", "S", "T", "U", "Ư", "V", "X", "Y"],
+        "Assigments": [
+        {
+            "name": "Ghép chữ - ký hiệu",
+            "description": "Người học quan sát một chữ cái hoặc một ký hiệu và chọn phương án tương ứng còn lại.",
+            "example": "Hệ thống hiển thị chữ 'A', người học chọn ký hiệu cho chữ 'A'."
+        },
+        {
+            "name": "Đánh vần tên",
+            "description": "Thực hành ký hiệu (đánh vần) tên của mình và tên của bạn bè trong lớp.",
+            "example": "Học viên thực hành ký hiệu tên 'Đ-I-N-H'."
+        }
+    ]
+    },
+    {
+        "Day": "4",
+        "Lesson": "Bài 1 - Bảng chữ cái",
+        "Goal": "Practice",
+        "Signs": [],
+        "Assigments": [
+        {
+            "name": "Ghép chữ cái thành từ đơn",
+            "description": "Thực hành ký hiệu các chữ cái riêng lẻ để tạo thành từ ngắn, không dấu.",
+            "example": "Giáo viên yêu cầu ký hiệu từ 'CHA', học viên ký hiệu 'C-H-A'."
+        },
+        {
+            "name": "Ký hiệu địa danh",
+            "description": "Thử thách đánh vần tên các địa danh đơn giản, không dấu.",
+            "example": "Học viên được xem hình ảnh Văn Miếu và ký hiệu 'H-A N-O-I'."
+        },
+        {
+            "name": "Thử thách tốc độ",
+            "description": "Giáo viên hoặc video ký hiệu một chữ cái nhanh và người học phải đoán đúng ngay lập tức.",
+            "example": "Video ký hiệu nhanh chữ 'T', người học phải nhận diện và ghi 'T' vào tập."
+        }
+        ]
+    },
+    {
+        "Day": "5",
+        "Lesson": "Bài 2 - Số đếm và Thời gian",
+        "Goal": "Study new signs",
+        "Signs": ["Số 1", "Số 2", "Số 3", "Số 4", "Số 5", "Số 6", "Số 7", "Số 8", "Số 9", "Số 10"],
+        "Assigments": [
+        {
+        "name": "Đếm theo nhịp",
+        "description": "Thực hành ký hiệu số từ 1 đến 10 theo thứ tự xuôi và ngược theo nhịp điệu.",
+        "example": "Cả lớp cùng ký hiệu '1', '2', '3',... '10' theo nhịp vỗ tay."
+        },
+        {
+        "name": "Toán nhanh ký hiệu với phép cộng",
+        "description": "Giáo viên ra phép tính đơn giản và học viên ký hiệu câu trả lời.",
+        "example": "Giáo viên ký hiệu '2' + '3', học viên ký hiệu câu trả lời là '5'."
+      }]
+    },
+    {
+        "Day": "6",
+        "Lesson": "Bài 2 - Số đếm và Thời gian",
+        "Goal": "Study new signs",
+        "Signs": ["Thời gian", "Hỏi giờ", "Ngày", "Tháng", "Năm", "Hôm nay", "Hôm qua", "Buổi sáng", "Buổi trưa", "Buổi chiều", "Buổi tối", "Đêm"],
+        "Assigments": [      
+            {
+        "name": "Thực hành hỏi và trả lời",
+        "description": "Bắt cặp hỏi và trả lời về thời gian (mấy giờ, thứ mấy) bằng ký hiệu.",
+        "example": "Người A (ký hiệu): 'Mấy giờ'? Người B (ký hiệu): '8', 'Giờ'."
+        }]
+    },
+    {
+        "Day": "7",
+        "Lesson": "Bài 2 - Số đếm và Thời gian",
+        "Goal": "Practice",
+        "Signs": [],
+        "Assigments": [
+            {
+        "name": "Toán nhanh ký hiệu với phép nhân",
+        "description": "Giáo viên ra phép tính đơn giản và học viên ký hiệu câu trả lời.",
+        "example": "Giáo viên ký hiệu '2' * '3', học viên ký hiệu câu trả lời là '6'."
+      },
+      {
+        "name": "Lịch của tôi",
+        "description": "Thực hành ký hiệu ngày hiện tại của mình.",
+        "example": "Học viên giới thiệu: 'Ngày 6', 'Tháng 10'."
+      }
+        ]
+    },
+    {
+        "Day": "8",
+        "Lesson": "Bài 3 - Giao tiếp cơ bản và Cảm xúc",
+        "Goal": "Study new signs",
+        "Signs": ["Tôi", "Chào", "Xin lỗi", "Xin phép", "Vui", "Buồn", "Mệt", "Khỏe", "Yếu"],
+        "Assigments": [
+            {
+        "name": "Bài tập tình huống",
+        "description": "Thực hành phản ứng bằng ký hiệu trong các tình huống giao tiếp cụ thể.",
+        "example": "Tình huống: 'Bạn đi học muộn'. Học viên thực hành ký hiệu 'Xin lỗi'."
+      },
+           {
+        "name": "Hội thoại chào hỏi",
+        "description": "Bắt cặp và thực hành hội thoại cơ bản: Chào, hỏi tên, hỏi sức khỏe.",
+        "example": "Người A (ký hiệu): 'Xin chào, Tôi tên là An. Bạn khỏe không?' Người B (ký hiệu): 'Tôi khỏe. Cảm ơn'."
+      }
+        ]
+    },
+    {
+        "Day": "9",
+        "Lesson": "Bài 3 - Giao tiếp cơ bản và Cảm xúc",
+        "Goal": "Study new signs",
+        "Signs": ["Bạn", "Tên là gì", "Tuổi", "Thế nào", "Bao nhiêu", "Ở đâu", "Làm gì"],
+        "Assigments": [
+            {
+        "name": "Nhận diện từ hỏi",
+        "description": "Học và nhận diện các ký hiệu cho các từ hỏi cơ bản.",
+        "example": "Học viên xem video ký hiệu 'Ở đâu?' và chọn nghĩa đúng."
+      }
+        ]
+    },
+    {
+        "Day": "10",
+        "Lesson": "Bài 3 - Giao tiếp cơ bản và Cảm xúc",
+        "Goal": "Practice",
+        "Signs": [],
+        "Assigments": [
+        {
+        "name": "Giới thiệu bản thân",
+        "description": "Tập ký hiệu một đoạn giới thiệu ngắn về bản thân, tên và cảm xúc.",
+        "example": "Học viên ký hiệu: 'Xin chào, tôi tên là Linh. Hôm nay tôi vui'."
+      },
+      {
+        "name": "Phân biệt từ trái nghĩa",
+        "description": "Học và thực hành các cặp ký hiệu có nghĩa trái ngược nhau.",
+        "example": "Giáo viên ký hiệu 'Vui', học viên ký hiệu 'Buồn'."
+      }
+        ]
+    },
+    {
+        "Day": "11",
+        "Lesson": "Bài 4 - Hoạt động hàng ngày",
+        "Goal": "Study new signs",
+        "Signs": ["Đi", "Đứng", "Ngồi", "Nằm", "Chạy", "Nhảy"],
+        "Assigments": [
+            {
+        "name": "Nhận diện từ vựng hành động",
+        "description": "Học và củng cố các ký hiệu cho các hành động cơ bản.",
+        "example": "Học viên xem hình ảnh người đang 'Chạy' và chọn ký hiệu 'Chạy' tương ứng."
+      }
+        ]
+    },
+    {
+        "Day": "12",
+        "Lesson": "Bài 4 - Hoạt động hàng ngày",
+        "Goal": "Study new signs",
+        "Signs": ["Ngủ", "Đi vệ sinh", "Ăn", "Uống", "Tắm", "Khóc", "Cười"],
+        "Assigments": [
+            {
+        "name": "Ghép ký hiệu thành câu",
+        "description": "Thực hành ghép các ký hiệu đơn lẻ thành câu có nghĩa theo cú pháp đơn giản.",
+        "example": "Học viên ghép ký hiệu: 'Tôi' + 'Đi' + 'Ngủ' hoặc 'Bạn' + 'Cười' hoặc 'Tôi' + 'Tắm' + 'Buổi sáng'."
+      }
+        ]
+    },
+    {
+        "Day": "13",
+        "Lesson": "Bài 4 - Hoạt động hàng ngày",
+        "Goal": "Practice",
+        "Signs": [],
+        "Assigments": [
+            {
+        "name": "Biểu diễn tiểu phẩm",
+        "description": "Diễn một tiểu phẩm ngắn sử dụng các ký hiệu đã học để mô tả một chuỗi hoạt động.",
+        "example": "Tiểu phẩm 'Buổi sáng của tôi': dùng ký hiệu 'Thức dậy', 'Tắm', 'Ăn'."
+      },
+      {
+        "name": "Kể về ngày của bạn",
+        "description": "Sử dụng ký hiệu để kể về 3 hoạt động bất kỳ của bạn trong ngày.",
+        "example": "Học viên ký hiệu: 'Hôm nay', 'Tôi', 'Ăn', 'Chạy', 'Ngủ'."
+      },
+      {
+        "name": "Phân biệt hành động tương tự",
+        "description": "Học cách phân biệt các cặp ký hiệu dễ nhầm lẫn về hình dạng hoặc ý nghĩa.",
+        "example": "Giáo viên thực hiện ký hiệu 'Đi' và 'Chạy' để học viên chỉ ra sự khác biệt."
+      }
+        ]
+    },
+    {
+        "Day": "14",
+        "Lesson": "Bài 5 - Gia đình",
+        "Goal": "Study new signs",
+        "Signs": ["Gia đình", "Ông", "Bà", "Bố", "Mẹ", "Em trai", "Em gái"],
+        "Assigments": [
+        {
+        "name": "Khởi động – Ôn tập ký hiệu",
+        "description": "Xem lại các ký hiệu về gia đình và thực hành lại từng ký hiệu.",
+        "example": "Giáo viên chỉ vào ký hiệu 'Bố' và cả lớp cùng thực hiện lại."
+      }]
+    },
+    {
+        "Day": "15",
+        "Lesson": "Bài 5 - Gia đình",
+        "Goal": "Study new signs",
+        "Signs": ["Con trai", "Con gái", "Vợ", "Chồng", "Anh trai", "Chị gái", "Em út", "Yêu"],
+        "Assigments": [
+            {
+        "name": "Thực hành – Mô tả gia đình của bạn",
+        "description": "Tập ký hiệu một đoạn mô tả ngắn về gia đình mình.",
+        "example": "Học viên ký hiệu: 'Gia đình tôi có 4 người. Bố, Mẹ, Anh, và Tôi'."
+        }
+        ]
+    },
+    {
+        "Day": "16",
+        "Lesson": "Bài 5 - Gia đình",
+        "Goal": "Practice",
+        "Signs": [],
+        "Assigments": [
+            {
+        "name": "Luyện tập – Nhận diện và điền từ",
+        "description": "Hoàn thành câu mô tả bằng cách chọn từ hoặc ký hiệu đúng.",
+        "example": "Câu: 'Đây là ___ của tôi.' (Hình ảnh người mẹ). Học viên chọn ký hiệu 'Mẹ'."
+      },
+      {
+        "name": "Sáng tạo – Vẽ sơ đồ gia đình",
+        "description": "Vẽ cây gia đình đơn giản, ghi tên và tập ký hiệu từng người.",
+        "example": "Học viên vẽ sơ đồ và chỉ vào hình, ký hiệu: 'Đây là Ông', 'Đây là Bà'."
+      },
+      {
+        "name": "Hội thoại – Hỏi đáp về gia đình",
+        "description": "Thực hành hỏi – đáp bằng ký hiệu về các thành viên trong gia đình.",
+        "example": "Người A (ký hiệu): 'Gia đình bạn có mấy người?' Người B (ký hiệu): 'Có 3 người'."
+      },
+      {
+        "name": "Luyện tập nâng cao – Ghép tên bằng ký hiệu",
+        "description": "Tập ký hiệu tên thành viên gia đình bằng cách đánh vần (fingerspelling).",
+        "example": "Học viên ký hiệu 'Bố' (ký hiệu cho Bố), sau đó ký hiệu 'N-A-M'."
+      },
+      {
+        "name": "Tư duy – Đố vui ký hiệu gia đình",
+        "description": "Trả lời các câu đố liên quan đến mối quan hệ trong gia đình bằng ký hiệu.",
+        "example": "Câu đố: 'Bố của mẹ bạn là gì?' Học viên ký hiệu câu trả lời: 'Ông'."
+      }
+        ]
+    },
+    {
+        "Day": "17",
+        "Lesson": "Bài 6 - Nghề nghiệp",
+        "Goal": "Study new signs",
+        "Signs": ["Cô giáo", "Công nhân", "Nông dân", "Bác sĩ", "Y tá", "Công an", "Bộ đội"],
+        "Assigments": [
+            {
+        "name": "Khởi động – Ôn lại ký hiệu nghề nghiệp",
+        "description": "Xem lại các ký hiệu nghề nghiệp đã học và thực hành lại.",
+        "example": "Cả lớp cùng xem video và làm theo ký hiệu 'Bác sĩ', 'Giáo viên', 'Công nhân'."
+        },
+        {
+            "name": "Nhận diện – Nhìn hình đoán nghề",
+            "description": "Quan sát hình ảnh một người đang làm việc và chọn ký hiệu tương ứng.",
+            "example": "Hình ảnh một người chữa cháy. Học viên chọn ký hiệu 'Lính cứu hỏa'."
+        }
+        ]
+    },
+    {
+        "Day": "18",
+        "Lesson": "Bài 6 - Nghề nghiệp",
+        "Goal": "Practice",
+        "Signs": [],
+        "Assigments": [
+            {
+        "name": "Luyện tập – Đọc mô tả, đoán nghề",
+        "description": "Đọc mô tả đơn giản về một nghề và thực hiện ký hiệu cho nghề đó.",
+        "example": "Mô tả: 'Người này dạy học'. Học viên ký hiệu 'Giáo viên'."
+      },
+      {
+        "name": "Tư duy – Nhìn ký hiệu đoán từ",
+        "description": "Quan sát ký hiệu mà hệ thống hoặc giáo viên thể hiện và đoán nghề nghiệp tương ứng.",
+        "example": "Giáo viên làm ký hiệu 'Nấu ăn', học viên đoán 'Đầu bếp'."
+      },
+      {
+        "name": "Giao tiếp – Tạo đoạn hội thoại",
+        "description": "Tạo đoạn hội thoại ngắn giữa hai người nói về nghề nghiệp của họ hoặc gia đình.",
+        "example": "Người A (ký hiệu): 'Bố bạn làm nghề gì?' Người B (ký hiệu): 'Bố tôi là bác sĩ'."
+      },
+      {
+        "name": "Sáng tạo – Mô tả ước mơ nghề nghiệp",
+        "description": "Viết hoặc ký hiệu đoạn mô tả nghề nghiệp mơ ước của bản thân.",
+        "example": "Học viên ký hiệu: 'Tôi', 'Muốn', 'Ca sĩ'."
+      },
+      {
+        "name": "Kết hợp – Mô tả nghề nghiệp gia đình",
+        "description": "Thực hành mô tả nghề nghiệp của các thành viên trong gia đình bằng ngôn ngữ ký hiệu.",
+        "example": "Học viên ký hiệu: 'Bố tôi là công nhân', 'Mẹ tôi là giáo viên'."
+      }
+    ]
+    }
+]

@@ -1,0 +1,818 @@
+[
+  {
+    "term": "A",
+    "description": "Nắm bàn tay lại, ngón cái duỗi ra, hướng lên trên.",
+    "lesson": "Bài 1 - Bảng chữ cái",
+    "type": "Chữ cái",
+    "image": "https://ffqmgqkauhwfxinatqol.supabase.co/storage/v1/object/sign/Sign_images/A.png?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV8zMTMzZjYwYi1mMjdiLTQ3M2UtODgzMS1mNTQxNzhmNTk5YjAiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJTaWduX2ltYWdlcy9BLnBuZyIsImlhdCI6MTc2MTU3NTA1NCwiZXhwIjoxNzY2NzU5MDU0fQ.XM7oM9ZFYf_7JxtWXl1jCLiGdA-3F7Osi9mZo7_MnRI",
+    "videos": "https://gajsffqnyujwyllfcmny.supabase.co/storage/v1/object/public/sign_videos/sign_000%20-%20LOOP%20-%20Videobolt.net.mp4"
+  },
+  {
+    "term": "Ă",
+    "description": "Nắm bàn tay lại, ngón cái duỗi ra, hướng lên trên. Sau đó, lòng bàn tay ngửa, ngón trỏ và ngón giữa xòe ra, gập ở đốt thứ hai, các ngón khác nắm.",
+    "lesson": "Bài 1 - Bảng chữ cái",
+    "type": "Chữ cái",
+    "image": "",
+    "videos": "https://gajsffqnyujwyllfcmny.supabase.co/storage/v1/object/public/sign_videos/sign_001%20-%20LOOP%20-%20Videobolt.net.mp4"
+  },
+  {
+    "term": "Â",
+    "description": "Nắm bàn tay lại, ngón cái duỗi ra, hướng lên trên. Sau đó, lòng bàn tay úp, ngón trỏ và ngón giữa xòe ra, gập ở đốt thứ hai, các ngón khác nắm.",
+    "lesson": "Bài 1 - Bảng chữ cái",
+    "type": "Chữ cái",
+    "image": "",
+    "videos": "https://gajsffqnyujwyllfcmny.supabase.co/storage/v1/object/public/sign_videos/sign_002%20-%20LOOP%20-%20Videobolt.net.mp4"
+  },
+  {
+    "term": "B",
+    "description": "Mở bàn tay, các ngón khép sát nhau, lòng bàn tay hướng ra ngoài, ngón cái cụp lại.",
+    "lesson": "Bài 1 - Bảng chữ cái",
+    "type": "Chữ cái",
+    "image": "https://ffqmgqkauhwfxinatqol.supabase.co/storage/v1/object/sign/Sign_images/B.png?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV8zMTMzZjYwYi1mMjdiLTQ3M2UtODgzMS1mNTQxNzhmNTk5YjAiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJTaWduX2ltYWdlcy9CLnBuZyIsImlhdCI6MTc2MTU3NTA3NywiZXhwIjoxNzY2NzU5MDc3fQ.5MAKpQ1p9nxVWDD9XRvMPRScMo0XI9xr4bhNkxhCzPE",
+    "videos": "https://gajsffqnyujwyllfcmny.supabase.co/storage/v1/object/public/sign_videos/sign_003%20-%20LOOP%20-%20Videobolt.net.mp4"
+  },
+  {
+    "term": "C",
+    "description": "Các ngón tay cong lại tạo thành hình vòng tròn giống chữ C.",
+    "lesson": "Bài 1 - Bảng chữ cái",
+    "type": "Chữ cái",
+    "image": "https://ffqmgqkauhwfxinatqol.supabase.co/storage/v1/object/sign/Sign_images/C.png?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV8zMTMzZjYwYi1mMjdiLTQ3M2UtODgzMS1mNTQxNzhmNTk5YjAiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJTaWduX2ltYWdlcy9DLnBuZyIsImlhdCI6MTc2MTU3NTA5NCwiZXhwIjoxNzY2NzU5MDk0fQ.hY_EJjvkn3K7Gktxm0Bt9AjLCA3N7Zx4aIp_khF7fcQ",
+    "videos": "https://gajsffqnyujwyllfcmny.supabase.co/storage/v1/object/public/sign_videos/sign_004%20-%20LOOP%20-%20Videobolt.net.mp4"
+  },
+  {
+    "term": "D",
+    "description": "Duỗi ngón trỏ thẳng lên, các ngón khác nắm lại.",
+    "lesson": "Bài 1 - Bảng chữ cái",
+    "type": "Chữ cái",
+    "image": "https://ffqmgqkauhwfxinatqol.supabase.co/storage/v1/object/sign/Sign_images/D.png?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV8zMTMzZjYwYi1mMjdiLTQ3M2UtODgzMS1mNTQxNzhmNTk5YjAiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJTaWduX2ltYWdlcy9ELnBuZyIsImlhdCI6MTc2MTU3NTEzMCwiZXhwIjoxNzY2NzU5MTMwfQ.bHCE1rsRWlGRVHYSZQ7J1RXJVAR8m7XtWB3JpWzC3SY",
+    "videos": "https://gajsffqnyujwyllfcmny.supabase.co/storage/v1/object/public/sign_videos/sign_005%20-%20LOOP%20-%20Videobolt.net.mp4"
+  },
+  {
+    "term": "Đ",
+    "description": "Giống chữ D nhưng ngón trỏ cong lại.",
+    "lesson": "Bài 1 - Bảng chữ cái",
+    "type": "Chữ cái",
+    "image": "https://ffqmgqkauhwfxinatqol.supabase.co/storage/v1/object/sign/Sign_images/DD.png?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV8zMTMzZjYwYi1mMjdiLTQ3M2UtODgzMS1mNTQxNzhmNTk5YjAiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJTaWduX2ltYWdlcy9ERC5wbmciLCJpYXQiOjE3NjE1NzUxNDYsImV4cCI6MTc2Njc1OTE0Nn0.GZ2zcLmuD_KcTJjoSaufvox5xxw-VYvTpXEF7h70te4",
+    "videos": "https://gajsffqnyujwyllfcmny.supabase.co/storage/v1/object/public/sign_videos/sign_006%20-%20LOOP%20-%20Videobolt.net.mp4"
+  },
+  {
+    "term": "E",
+    "description": "Các ngón uốn cong vào, đầu ngón gần chạm lòng bàn tay.",
+    "lesson": "Bài 1 - Bảng chữ cái",
+    "type": "Chữ cái",
+    "image": "https://ffqmgqkauhwfxinatqol.supabase.co/storage/v1/object/sign/Sign_images/E.png?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV8zMTMzZjYwYi1mMjdiLTQ3M2UtODgzMS1mNTQxNzhmNTk5YjAiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJTaWduX2ltYWdlcy9FLnBuZyIsImlhdCI6MTc2MTU3NTE2MiwiZXhwIjoxNzY2NzU5MTYyfQ.95cihfjcbUgMXrzj-OEDUd3s0UOM9joFyNh7Qj6WmDw",
+    "videos": "https://gajsffqnyujwyllfcmny.supabase.co/storage/v1/object/public/sign_videos/sign_007%20-%20LOOP%20-%20Videobolt.net.mp4"
+  },
+  {
+    "term": "Ê",
+    "description": "Các ngón uốn cong vào, đầu ngón gần chạm lòng bàn tay. Sau đó, lòng bàn tay úp, ngón trỏ và ngón giữa xòe ra, gập ở đốt thứ hai, các ngón khác nắm.",
+    "lesson": "Bài 1 - Bảng chữ cái",
+    "type": "Chữ cái",
+    "image": "https://ffqmgqkauhwfxinatqol.supabase.co/storage/v1/object/sign/Sign_images/EE.png?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV8zMTMzZjYwYi1mMjdiLTQ3M2UtODgzMS1mNTQxNzhmNTk5YjAiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJTaWduX2ltYWdlcy9FRS5wbmciLCJpYXQiOjE3NjE1NzUxODAsImV4cCI6MTc2Njc1OTE4MH0.2Pi92TSJDrfMY9eJbGR6QZ-ilFUQtkkCxCoPGyegW7I",
+    "videos": "https://gajsffqnyujwyllfcmny.supabase.co/storage/v1/object/public/sign_videos/sign_008%20-%20LOOP%20-%20Videobolt.net.mp4"
+  },
+  {
+    "term": "G",
+    "description": "Ngón trỏ và ngón cái duỗi ngang song song, các ngón khác nắm lại.",
+    "lesson": "Bài 1 - Bảng chữ cái",
+    "type": "Chữ cái",
+    "image": "https://ffqmgqkauhwfxinatqol.supabase.co/storage/v1/object/sign/Sign_images/G.png?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV8zMTMzZjYwYi1mMjdiLTQ3M2UtODgzMS1mNTQxNzhmNTk5YjAiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJTaWduX2ltYWdlcy9HLnBuZyIsImlhdCI6MTc2MTU3NTE5OSwiZXhwIjoxNzY2NzU5MTk5fQ.f9lj1WmQOMIe_peDxfolYvWdYaMIcRqx3BqAQRIpBzU",
+    "videos": "https://gajsffqnyujwyllfcmny.supabase.co/storage/v1/object/public/sign_videos/sign_009%20-%20LOOP%20-%20Videobolt.net.mp4"
+  },
+  {
+    "term": "H",
+    "description": "ngón giữa và ngón cái chạm vào nhau, các ngón còn lại duỗi.",
+    "lesson": "Bài 1 - Bảng chữ cái",
+    "type": "Chữ cái",
+    "image": "https://ffqmgqkauhwfxinatqol.supabase.co/storage/v1/object/sign/Sign_images/H.png?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV8zMTMzZjYwYi1mMjdiLTQ3M2UtODgzMS1mNTQxNzhmNTk5YjAiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJTaWduX2ltYWdlcy9ILnBuZyIsImlhdCI6MTc2MTU3NTIyNiwiZXhwIjoxNzY2NzU5MjI2fQ.EfH8QKd-j0j37iXAl3J91IGdohRkXZ8RretYo1heolA",
+    "videos": "https://gajsffqnyujwyllfcmny.supabase.co/storage/v1/object/public/sign_videos/sign_010%20-%20LOOP%20-%20Videobolt.net.mp4"
+  },
+  {
+    "term": "I",
+    "description": "Chỉ duỗi ngón út, các ngón khác nắm lại.",
+    "lesson": "Bài 1 - Bảng chữ cái",
+    "type": "Chữ cái",
+    "image": "https://ffqmgqkauhwfxinatqol.supabase.co/storage/v1/object/sign/Sign_images/I.png?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV8zMTMzZjYwYi1mMjdiLTQ3M2UtODgzMS1mNTQxNzhmNTk5YjAiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJTaWduX2ltYWdlcy9JLnBuZyIsImlhdCI6MTc2MTU3NTI2MywiZXhwIjoxNzY2NzU5MjYzfQ.BG_08eEUtMT6w_9j5i-QRtd4COLT119VKw4nyuoQap8",
+    "videos": "https://gajsffqnyujwyllfcmny.supabase.co/storage/v1/object/public/sign_videos/sign_011%20-%20LOOP%20-%20Videobolt.net.mp4"
+  },
+  {
+    "term": "K",
+    "description": "Duỗi ngón trỏ và ngón giữa tạo hình chữ V, ngón cái chạm vào giữa hai ngón đó, các ngón còn lại nắm.",
+    "lesson": "Bài 1 - Bảng chữ cái",
+    "type": "Chữ cái",
+    "image": "https://ffqmgqkauhwfxinatqol.supabase.co/storage/v1/object/sign/Sign_images/K.png?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV8zMTMzZjYwYi1mMjdiLTQ3M2UtODgzMS1mNTQxNzhmNTk5YjAiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJTaWduX2ltYWdlcy9LLnBuZyIsImlhdCI6MTc2MTU3NTI0MCwiZXhwIjoxNzY2NzU5MjQwfQ.i6zyUHLoRzKJ72ZZBvRVVv9nZySIvRA3CAjJeNgV9pc",
+    "videos": "https://gajsffqnyujwyllfcmny.supabase.co/storage/v1/object/public/sign_videos/sign_012%20-%20LOOP%20-%20Videobolt.net.mp4"
+  },
+  {
+    "term": "L",
+    "description": "Duỗi ngón trỏ và ngón cái vuông góc nhau tạo hình chữ L, các ngón còn lại nắm.",
+    "lesson": "Bài 1 - Bảng chữ cái",
+    "type": "Chữ cái",
+    "image": "https://ffqmgqkauhwfxinatqol.supabase.co/storage/v1/object/sign/Sign_images/L.png?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV8zMTMzZjYwYi1mMjdiLTQ3M2UtODgzMS1mNTQxNzhmNTk5YjAiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJTaWduX2ltYWdlcy9MLnBuZyIsImlhdCI6MTc2MTU3NTI3NCwiZXhwIjoxNzY2NzU5Mjc0fQ.v-PuIP4g0fyCiDUgHczNhtnaArMxeTfeTBcfCJow_zU",
+    "videos": "https://gajsffqnyujwyllfcmny.supabase.co/storage/v1/object/public/sign_videos/sign_013%20-%20LOOP%20-%20Videobolt.net.mp4"
+  },
+  {
+    "term": "M",
+    "description": "Gập ngón cái và ngón út lại, ba ngón còn lại úp xuống, đưa mu bàn tay ra ngoài.",
+    "lesson": "Bài 1 - Bảng chữ cái",
+    "type": "Chữ cái",
+    "image": "https://ffqmgqkauhwfxinatqol.supabase.co/storage/v1/object/sign/Sign_images/M.png?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV8zMTMzZjYwYi1mMjdiLTQ3M2UtODgzMS1mNTQxNzhmNTk5YjAiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJTaWduX2ltYWdlcy9NLnBuZyIsImlhdCI6MTc2MTU3NTI5MiwiZXhwIjoxNzY2NzU5MjkyfQ.zGoiJ73AXJmotlAgyv0kB4yYbe9FadVxyKVB5TNs2Tk",
+    "videos": "https://gajsffqnyujwyllfcmny.supabase.co/storage/v1/object/public/sign_videos/sign_014%20-%20LOOP%20-%20Videobolt.net.mp4"
+  },
+  {
+    "term": "N",
+    "description": "Giống chữ M nhưng chỉ có ngón trỏ và ngón giữa úp xuống.",
+    "lesson": "Bài 1 - Bảng chữ cái",
+    "type": "Chữ cái",
+    "image": "https://ffqmgqkauhwfxinatqol.supabase.co/storage/v1/object/sign/Sign_images/N.png?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV8zMTMzZjYwYi1mMjdiLTQ3M2UtODgzMS1mNTQxNzhmNTk5YjAiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJTaWduX2ltYWdlcy9OLnBuZyIsImlhdCI6MTc2MTU3NTMyMSwiZXhwIjoxNzY2NzU5MzIxfQ.fL2CTq15EKzINEzNx48-UEyABvPl3LKujmyhGNVM68k",
+    "videos": "https://gajsffqnyujwyllfcmny.supabase.co/storage/v1/object/public/sign_videos/sign_015%20-%20LOOP%20-%20Videobolt.net.mp4"
+  },
+  {
+    "term": "O",
+    "description": "Các ngón tay cong lại chạm đầu ngón tạo thành vòng tròn giống chữ O.",
+    "lesson": "Bài 1 - Bảng chữ cái",
+    "type": "Chữ cái",
+    "image": "https://ffqmgqkauhwfxinatqol.supabase.co/storage/v1/object/sign/Sign_images/O.png?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV8zMTMzZjYwYi1mMjdiLTQ3M2UtODgzMS1mNTQxNzhmNTk5YjAiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJTaWduX2ltYWdlcy9PLnBuZyIsImlhdCI6MTc2MTU3NTM3MCwiZXhwIjoxNzY2NzU5MzcwfQ.eHD4vy7XXo1r93d84m4G1QqOfgumCvzd9uZptzXKoLs",
+    "videos": "https://gajsffqnyujwyllfcmny.supabase.co/storage/v1/object/public/sign_videos/sign_016%20-%20LOOP%20-%20Videobolt.net.mp4"
+  },
+  {
+    "term": "Ô",
+    "description": "Các ngón tay cong lại chạm đầu ngón tạo thành vòng tròn giống chữ O. Sau đó, lòng bàn tay úp, ngón trỏ và ngón giữa xòe ra, gập ở đốt thứ hai, các ngón khác nắm.",
+    "lesson": "Bài 1 - Bảng chữ cái",
+    "type": "Chữ cái",
+    "image": "https://ffqmgqkauhwfxinatqol.supabase.co/storage/v1/object/sign/Sign_images/OO.png?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV8zMTMzZjYwYi1mMjdiLTQ3M2UtODgzMS1mNTQxNzhmNTk5YjAiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJTaWduX2ltYWdlcy9PTy5wbmciLCJpYXQiOjE3NjE1NzUzODIsImV4cCI6MTc2Njc1OTM4Mn0.wabwdRIKernRJ3Rz4sIW-lxjHAVCh9EqPVhyYAhzdUg",
+    "videos": "https://gajsffqnyujwyllfcmny.supabase.co/storage/v1/object/public/sign_videos/sign_017%20-%20LOOP%20-%20Videobolt.net.mp4"
+  },
+  {
+    "term": "Ơ",
+    "description": "Các ngón tay cong lại chạm đầu ngón tạo thành vòng tròn giống chữ O. Đồng thời từ từ mở ngón út, cong lại ở đốt thứ hai, lắc nhẹ cổ tay từ trái sang phải",
+    "lesson": "Bài 1 - Bảng chữ cái",
+    "type": "Chữ cái",
+    "image": "https://ffqmgqkauhwfxinatqol.supabase.co/storage/v1/object/sign/Sign_images/OW.png?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV8zMTMzZjYwYi1mMjdiLTQ3M2UtODgzMS1mNTQxNzhmNTk5YjAiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJTaWduX2ltYWdlcy9PVy5wbmciLCJpYXQiOjE3NjE1NzUzOTMsImV4cCI6MTc2Njc1OTM5M30.4F2sHS1MZbt1obY6P2SM7bhal8GEkHSglEb1EEVlwvE",
+    "videos": "https://gajsffqnyujwyllfcmny.supabase.co/storage/v1/object/public/sign_videos/sign_018%20-%20LOOP%20-%20Videobolt.net.mp4"
+  },
+  {
+    "term": "P",
+    "description": "Giống ký hiệu chữ K nhưng tay hướng xuống dưới, sao cho thành hình chữ V nằm ngang.",
+    "lesson": "Bài 1 - Bảng chữ cái",
+    "type": "Chữ cái",
+    "image": "https://ffqmgqkauhwfxinatqol.supabase.co/storage/v1/object/sign/Sign_images/P.png?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV8zMTMzZjYwYi1mMjdiLTQ3M2UtODgzMS1mNTQxNzhmNTk5YjAiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJTaWduX2ltYWdlcy9QLnBuZyIsImlhdCI6MTc2MTU3NTQwOCwiZXhwIjoxNzY2NzU5NDA4fQ.ypeQzmiSj0udYFW0kP4p-wjrzpnIFidTZF-XiLPI3FY",
+    "videos": "https://gajsffqnyujwyllfcmny.supabase.co/storage/v1/object/public/sign_videos/sign_019%20-%20LOOP%20-%20Videobolt.net.mp4"
+  },
+  {
+    "term": "Q",
+    "description": "Ngón trỏ và ngón cái tạo duỗi thẳng song song nhau, các ngón còn lại nắm, tay hướng xuống.",
+    "lesson": "Bài 1 - Bảng chữ cái",
+    "type": "Chữ cái",
+    "image": "https://ffqmgqkauhwfxinatqol.supabase.co/storage/v1/object/sign/Sign_images/Q.png?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV8zMTMzZjYwYi1mMjdiLTQ3M2UtODgzMS1mNTQxNzhmNTk5YjAiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJTaWduX2ltYWdlcy9RLnBuZyIsImlhdCI6MTc2MTU3NTQxOCwiZXhwIjoxNzY2NzU5NDE4fQ.NIzoKyzsOGKTrYlbZm_XUsjzBADF_OnDIdD7P0AefWY",
+    "videos": "https://gajsffqnyujwyllfcmny.supabase.co/storage/v1/object/public/sign_videos/sign_020%20-%20LOOP%20-%20Videobolt.net.mp4"
+  },
+  {
+    "term": "R",
+    "description": "Ngón giữa bắt chéo qua sau ngón trỏ, các ngón khác nắm lại, đưa lòng bàn tay về phía trước.",
+    "lesson": "Bài 1 - Bảng chữ cái",
+    "type": "Chữ cái",
+    "image": "https://ffqmgqkauhwfxinatqol.supabase.co/storage/v1/object/sign/Sign_images/R.png?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV8zMTMzZjYwYi1mMjdiLTQ3M2UtODgzMS1mNTQxNzhmNTk5YjAiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJTaWduX2ltYWdlcy9SLnBuZyIsImlhdCI6MTc2MTU3NTQzNiwiZXhwIjoxNzY2NzU5NDM2fQ.-8DB50C3ONvMQ6iQzxLYW6M5M7Qm3hXvjk0YBCj1wZU",
+    "videos": "https://gajsffqnyujwyllfcmny.supabase.co/storage/v1/object/public/sign_videos/sign_021%20-%20LOOP%20-%20Videobolt.net.mp4"
+  },
+  {
+    "term": "S",
+    "description": "4 ngón chụm vào nhau, chạm vào khủy đốt ngón tay cái.",
+    "lesson": "Bài 1 - Bảng chữ cái",
+    "type": "Chữ cái",
+    "image": "https://ffqmgqkauhwfxinatqol.supabase.co/storage/v1/object/sign/Sign_images/S.png?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV8zMTMzZjYwYi1mMjdiLTQ3M2UtODgzMS1mNTQxNzhmNTk5YjAiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJTaWduX2ltYWdlcy9TLnBuZyIsImlhdCI6MTc2MTU3NTQ1MywiZXhwIjoxNzY2NzU5NDUzfQ.RHoKSEMwkmBlfGeIik5xmmZLcLdQDyRUqaqVGiWGExk",
+    "videos": "https://gajsffqnyujwyllfcmny.supabase.co/storage/v1/object/public/sign_videos/sign_022%20-%20LOOP%20-%20Videobolt.net.mp4"
+  },
+  {
+    "term": "T",
+    "description": "ngón trỏ bắt chéo qua ngón cái, các ngón còn lại duỗi, đưa lòng bàn tay về phía trước.",
+    "lesson": "Bài 1 - Bảng chữ cái",
+    "type": "Chữ cái",
+    "image": "https://ffqmgqkauhwfxinatqol.supabase.co/storage/v1/object/sign/Sign_images/T.png?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV8zMTMzZjYwYi1mMjdiLTQ3M2UtODgzMS1mNTQxNzhmNTk5YjAiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJTaWduX2ltYWdlcy9ULnBuZyIsImlhdCI6MTc2MTU3NTQ2OSwiZXhwIjoxNzY2NzU5NDY5fQ.-epbPwyukqw62sFeue-3CJZTVzLEIImkNVNN4PIXyi8",
+    "videos": "https://gajsffqnyujwyllfcmny.supabase.co/storage/v1/object/public/sign_videos/sign_023%20-%20LOOP%20-%20Videobolt.net.mp4"
+  },
+  {
+    "term": "U",
+    "description": "Duỗi thẳng ngón trỏ và ngón giữa, khép vào nhau, các ngón còn lại nắm lại.",
+    "lesson": "Bài 1 - Bảng chữ cái",
+    "type": "Chữ cái",
+    "image": "https://ffqmgqkauhwfxinatqol.supabase.co/storage/v1/object/sign/Sign_images/U.png?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV8zMTMzZjYwYi1mMjdiLTQ3M2UtODgzMS1mNTQxNzhmNTk5YjAiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJTaWduX2ltYWdlcy9VLnBuZyIsImlhdCI6MTc2MTU3NTQ4MiwiZXhwIjoxNzY2NzU5NDgyfQ.do2zPkriZqgxyGXKFCn88Y_HD7TAlh7cAAFQx13pLv4",
+    "videos": "https://gajsffqnyujwyllfcmny.supabase.co/storage/v1/object/public/sign_videos/sign_024%20-%20LOOP%20-%20Videobolt.net.mp4"
+  },
+  {
+    "term": "Ư",
+    "description": "Duỗi thẳng ngón trỏ và ngón giữa, khép vào nhau, các ngón còn lại nắm lại. ngón út mở, cong lại ở đốt thứ hai, các ngón khác nắm, di chuyển cả bàn tay từ trái sang phải",
+    "lesson": "Bài 1 - Bảng chữ cái",
+    "type": "Chữ cái",
+    "image": "https://ffqmgqkauhwfxinatqol.supabase.co/storage/v1/object/sign/Sign_images/UW.png?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV8zMTMzZjYwYi1mMjdiLTQ3M2UtODgzMS1mNTQxNzhmNTk5YjAiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJTaWduX2ltYWdlcy9VVy5wbmciLCJpYXQiOjE3NjE1NzU0OTYsImV4cCI6MTc2Njc1OTQ5Nn0.r3sktc-OCki7ktslSDPUIuH4cWHlY2MqNaSKVU6ul0M",
+    "videos": "https://gajsffqnyujwyllfcmny.supabase.co/storage/v1/object/public/sign_videos/sign_025%20-%20LOOP%20-%20Videobolt.net.mp4"
+  },
+  {
+    "term": "V",
+    "description": "Duỗi ngón trỏ và ngón giữa tạo hình chữ V,, các ngón còn lại nắm lại.",
+    "lesson": "Bài 1 - Bảng chữ cái",
+    "type": "Chữ cái",
+    "image": "https://ffqmgqkauhwfxinatqol.supabase.co/storage/v1/object/sign/Sign_images/V.png?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV8zMTMzZjYwYi1mMjdiLTQ3M2UtODgzMS1mNTQxNzhmNTk5YjAiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJTaWduX2ltYWdlcy9WLnBuZyIsImlhdCI6MTc2MTU3NTUxMywiZXhwIjoxNzY2NzU5NTEzfQ.AOD0rQa7MTemyvQTZ1tT8Vtt3i_7nmInKDZHcz3vijA",
+    "videos": "https://gajsffqnyujwyllfcmny.supabase.co/storage/v1/object/public/sign_videos/sign_026%20-%20LOOP%20-%20Videobolt.net.mp4"
+  },
+  {
+    "term": "X",
+    "description": "ngón trỏ cong lại chạm vào ngón cái duỗi thẳng, các ngón còn lại nắm",
+    "lesson": "Bài 1 - Bảng chữ cái",
+    "type": "Chữ cái",
+    "image": "https://ffqmgqkauhwfxinatqol.supabase.co/storage/v1/object/sign/Sign_images/X.png?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV8zMTMzZjYwYi1mMjdiLTQ3M2UtODgzMS1mNTQxNzhmNTk5YjAiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJTaWduX2ltYWdlcy9YLnBuZyIsImlhdCI6MTc2MTU3NTUzMCwiZXhwIjoxNzY2NzU5NTMwfQ.YXslN2cPYy8qauJaZr9bKgCnFOBj5Y-7f1KR5B5BCps",
+    "videos": "https://gajsffqnyujwyllfcmny.supabase.co/storage/v1/object/public/sign_videos/sign_027%20-%20LOOP%20-%20Videobolt.net.mp4"
+  },
+  {
+    "term": "Y",
+    "description": "Duỗi ngón cái và ngón út, các ngón còn lại nắm lại.",
+    "lesson": "Bài 1 - Bảng chữ cái",
+    "type": "Chữ cái",
+    "image": "https://ffqmgqkauhwfxinatqol.supabase.co/storage/v1/object/sign/Sign_images/Y.png?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV8zMTMzZjYwYi1mMjdiLTQ3M2UtODgzMS1mNTQxNzhmNTk5YjAiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJTaWduX2ltYWdlcy9ZLnBuZyIsImlhdCI6MTc2MTU3NTU0NywiZXhwIjoxNzY2NzU5NTQ3fQ.5P8z2XsDt3yjRWf-RRMqMV79sHX9iPwYABkEmUdiMjg",
+    "videos": "https://gajsffqnyujwyllfcmny.supabase.co/storage/v1/object/public/sign_videos/sign_028%20-%20LOOP%20-%20Videobolt.net.mp4"
+  },
+  {
+    "term": "Số 1",
+    "description": "Duỗi ngón trỏ thẳng lên, các ngón còn lại nắm lại.",
+    "lesson": "Bài 2 - Số đếm và Thời gian",
+    "type": "Số",
+    "image": "https://ffqmgqkauhwfxinatqol.supabase.co/storage/v1/object/sign/Sign_images/1.png?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV8zMTMzZjYwYi1mMjdiLTQ3M2UtODgzMS1mNTQxNzhmNTk5YjAiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJTaWduX2ltYWdlcy8xLnBuZyIsImlhdCI6MTc2MTY1NjA1MywiZXhwIjoxNzY2ODQwMDUzfQ.ZcTNXj6vjA1GxO3xmBIDfRHCRMo_SiKp0dSQr6-xKPw",
+    "videos": "https://gajsffqnyujwyllfcmny.supabase.co/storage/v1/object/public/sign_videos/sign_029%20-%20LOOP%20-%20Videobolt.net.mp4"
+  },
+  {
+    "term": "Số 2",
+    "description": "Duỗi ngón trỏ và ngón giữa tạo hình chữ V.",
+    "lesson": "Bài 2 - Số đếm và Thời gian",
+    "type": "Số",
+    "image": "https://ffqmgqkauhwfxinatqol.supabase.co/storage/v1/object/sign/Sign_images/2.png?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV8zMTMzZjYwYi1mMjdiLTQ3M2UtODgzMS1mNTQxNzhmNTk5YjAiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJTaWduX2ltYWdlcy8yLnBuZyIsImlhdCI6MTc2MTY1NjA2NywiZXhwIjoxNzY2ODQwMDY3fQ.QTnp7xf01JtwuzJOuggFe3w_yI01fZfuYjD2fVhbNHk",
+    "videos": "https://gajsffqnyujwyllfcmny.supabase.co/storage/v1/object/public/sign_videos/sign_030%20-%20LOOP%20-%20Videobolt.net.mp4"
+  },
+  {
+    "term": "Số 3",
+    "description": "Duỗi ngón trỏ, ngón giữa và ngón đeo nhẫn.",
+    "lesson": "Bài 2 - Số đếm và Thời gian",
+    "type": "Số",
+    "image": "https://ffqmgqkauhwfxinatqol.supabase.co/storage/v1/object/sign/Sign_images/3.png?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV8zMTMzZjYwYi1mMjdiLTQ3M2UtODgzMS1mNTQxNzhmNTk5YjAiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJTaWduX2ltYWdlcy8zLnBuZyIsImlhdCI6MTc2MTY1NjA3OSwiZXhwIjoxNzY2ODQwMDc5fQ.61ybMmFso3L56T1qB95eQuvRb5d_Fc1TpN3dZFWnmYE",
+    "videos": "https://gajsffqnyujwyllfcmny.supabase.co/storage/v1/object/public/sign_videos/sign_031%20-%20LOOP%20-%20Videobolt.net.mp4"
+  },
+  {
+    "term": "Số 4",
+    "description": "Duỗi bốn ngón tay (trừ ngón cái).",
+    "lesson": "Bài 2 - Số đếm và Thời gian",
+    "type": "Số",
+    "image": "https://ffqmgqkauhwfxinatqol.supabase.co/storage/v1/object/sign/Sign_images/4.png?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV8zMTMzZjYwYi1mMjdiLTQ3M2UtODgzMS1mNTQxNzhmNTk5YjAiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJTaWduX2ltYWdlcy80LnBuZyIsImlhdCI6MTc2MTY1NjA5NiwiZXhwIjoxNzY2ODQwMDk2fQ.0ycieplpYMmaR6X2z0UP5g0rXDnfRKZL4uNzlXndj74",
+    "videos": "https://gajsffqnyujwyllfcmny.supabase.co/storage/v1/object/public/sign_videos/sign_032%20-%20LOOP%20-%20Videobolt.net.mp4"
+  },
+  {
+    "term": "Số 5",
+    "description": "Xòe rộng cả năm ngón tay.",
+    "lesson": "Bài 2 - Số đếm và Thời gian",
+    "type": "Số",
+    "image": "https://ffqmgqkauhwfxinatqol.supabase.co/storage/v1/object/sign/Sign_images/5.png?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV8zMTMzZjYwYi1mMjdiLTQ3M2UtODgzMS1mNTQxNzhmNTk5YjAiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJTaWduX2ltYWdlcy81LnBuZyIsImlhdCI6MTc2MTY1NjEwNiwiZXhwIjoxNzY2ODQwMTA2fQ.VQbCVMextNJWHomc5SP8mFNubrmTGRZ2vEsir_gqdJE",
+    "videos": "https://gajsffqnyujwyllfcmny.supabase.co/storage/v1/object/public/sign_videos/sign_033%20-%20LOOP%20-%20Videobolt.net.mp4"
+  },
+  {
+    "term": "Số 6",
+    "description": "Duỗi ngón cái và ngón út, các ngón còn lại nắm lại.",
+    "lesson": "Bài 2 - Số đếm và Thời gian",
+    "type": "Số",
+    "image": "https://ffqmgqkauhwfxinatqol.supabase.co/storage/v1/object/sign/Sign_images/6.png?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV8zMTMzZjYwYi1mMjdiLTQ3M2UtODgzMS1mNTQxNzhmNTk5YjAiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJTaWduX2ltYWdlcy82LnBuZyIsImlhdCI6MTc2MTY1NjExNywiZXhwIjoxNzY2ODQwMTE3fQ.OjfuUpXN1fzbq863J4QVVN1G4EJh6K7gy13Xy8GY6XI",
+    "videos": "https://gajsffqnyujwyllfcmny.supabase.co/storage/v1/object/public/sign_videos/sign_034%20-%20LOOP%20-%20Videobolt.net.mp4"
+  },
+  {
+    "term": "Số 7",
+    "description": "Duỗi ngón trỏ và ngón cái vuông góc nhau, tạo hình chữ L.",
+    "lesson": "Bài 2 - Số đếm và Thời gian",
+    "type": "Số",
+    "image": "https://ffqmgqkauhwfxinatqol.supabase.co/storage/v1/object/sign/Sign_images/7.png?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV8zMTMzZjYwYi1mMjdiLTQ3M2UtODgzMS1mNTQxNzhmNTk5YjAiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJTaWduX2ltYWdlcy83LnBuZyIsImlhdCI6MTc2MTY1NjEyOCwiZXhwIjoxNzY2ODQwMTI4fQ.jo8qxzvc9jbEhNLlAMgz4_-MPp0MiQyC235H44EQs8g",
+    "videos": "https://gajsffqnyujwyllfcmny.supabase.co/storage/v1/object/public/sign_videos/sign_035%20-%20LOOP%20-%20Videobolt.net.mp4"
+  },
+  {
+    "term": "Số 8",
+    "description": "Duỗi ngón cái và ngón giữa, các ngón khác nắm lại.",
+    "lesson": "Bài 2 - Số đếm và Thời gian",
+    "type": "Số",
+    "image": "https://ffqmgqkauhwfxinatqol.supabase.co/storage/v1/object/sign/Sign_images/8.png?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV8zMTMzZjYwYi1mMjdiLTQ3M2UtODgzMS1mNTQxNzhmNTk5YjAiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJTaWduX2ltYWdlcy84LnBuZyIsImlhdCI6MTc2MTY1NjEzOSwiZXhwIjoxNzY2ODQwMTM5fQ.iFgArkBSLgbalARemySDyBxynoAIo_CVT1rKSHzjg30",
+    "videos": "https://gajsffqnyujwyllfcmny.supabase.co/storage/v1/object/public/sign_videos/sign_036%20-%20LOOP%20-%20Videobolt.net.mp4"
+  },
+  {
+    "term": "Số 9",
+    "description": "Duỗi ngón trỏ cong lại chạm đầu ngón cái, tạo hình tròn nhỏ.",
+    "lesson": "Bài 2 - Số đếm và Thời gian",
+    "type": "Số",
+    "image": "https://ffqmgqkauhwfxinatqol.supabase.co/storage/v1/object/sign/Sign_images/9.png?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV8zMTMzZjYwYi1mMjdiLTQ3M2UtODgzMS1mNTQxNzhmNTk5YjAiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJTaWduX2ltYWdlcy85LnBuZyIsImlhdCI6MTc2MTY1NjE0NywiZXhwIjoxNzY2ODQwMTQ3fQ.oAArXca-aXRh0xx46FbzH0NoB5kQLu3Y6n5vaZuG0Pg",
+    "videos": "https://gajsffqnyujwyllfcmny.supabase.co/storage/v1/object/public/sign_videos/sign_037%20-%20LOOP%20-%20Videobolt.net.mp4"
+  },
+  {
+    "term": "Số 10",
+    "description": "Duỗi ngón trỏ hướng lên, xoay cổ tay qua lại (hoặc duỗi ngón trỏ hai lần liên tiếp để biểu thị \"10\").",
+    "lesson": "Bài 2 - Số đếm và Thời gian",
+    "type": "Số",
+    "image": "https://ffqmgqkauhwfxinatqol.supabase.co/storage/v1/object/sign/Sign_images/10.png?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV8zMTMzZjYwYi1mMjdiLTQ3M2UtODgzMS1mNTQxNzhmNTk5YjAiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJTaWduX2ltYWdlcy8xMC5wbmciLCJpYXQiOjE3NjE2NTYxNjAsImV4cCI6MTc2Njg0MDE2MH0.XeXsWzYR97KUNXIK5gSnXc6Im0ccqc3crWrJJSoa9JU",
+    "videos": "https://gajsffqnyujwyllfcmny.supabase.co/storage/v1/object/public/sign_videos/sign_038%20-%20LOOP%20-%20Videobolt.net.mp4"
+  },
+  {
+    "term": "Thời gian",
+    "description": "Tay trái khép, lòng bàn tay úp, đầu ngón tay hướng xuống dưới, đặt trước ngực. Tay phải giống số tự nhiên “1”, lòng bàn tay úp, đầu ngón tay hướng xuống dưới, đưa tay chuyển động vòng tròn theo chiều kim đồng hồ.",
+    "lesson": "Bài 2 - Số đếm và Thời gian",
+    "type": "Từ vựng",
+    "image": "https://ffqmgqkauhwfxinatqol.supabase.co/storage/v1/object/sign/Sign_images/Time.png?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV8zMTMzZjYwYi1mMjdiLTQ3M2UtODgzMS1mNTQxNzhmNTk5YjAiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJTaWduX2ltYWdlcy9UaW1lLnBuZyIsImlhdCI6MTc2MTcwMjA2NywiZXhwIjoxNzY2ODg2MDY3fQ.W1nkbBMK8ggNGkL-FUcQ91pfneeUKfiJ-h9vyOD72wI",
+    "videos": "https://gajsffqnyujwyllfcmny.supabase.co/storage/v1/object/public/sign_videos/sign_039%20-%20LOOP%20-%20Videobolt.net.mp4"
+  },
+  {
+    "term": "Hỏi giờ",
+    "description": "Tay phải nắm, lòng bàn tay ngửa, đặt trước ngực, giữ nguyên cánh tay, mở xoè bàn tay ra (2 lần).",
+    "lesson": "Bài 2 - Số đếm và Thời gian",
+    "type": "Từ vựng",
+    "image": "https://ffqmgqkauhwfxinatqol.supabase.co/storage/v1/object/sign/Sign_images/WhatTimeIsIt.png?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV8zMTMzZjYwYi1mMjdiLTQ3M2UtODgzMS1mNTQxNzhmNTk5YjAiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJTaWduX2ltYWdlcy9XaGF0VGltZUlzSXQucG5nIiwiaWF0IjoxNzYxNzAyMDkyLCJleHAiOjE3NjY4ODYwOTJ9.KCcD0swG3fuadJJurVeyCbDyfPOLMZ7H9O7eDLXY2N0",
+    "videos": "https://gajsffqnyujwyllfcmny.supabase.co/storage/v1/object/public/sign_videos/sign_040%20-%20LOOP%20-%20Videobolt.net.mp4"
+  },
+  {
+    "term": "Ngày",
+    "description": "Tay phải giống số tự nhiên \"1\", lòng bàn tay úp, đầu ngón tay hướng chếch sang trái, đặt trước ngực trái, đưa tay theo đường vòng cung sang phải đồng thời lòng bàn tay ngửa, đầu ngón tay hướng sang phải.",
+    "lesson": "Bài 2 - Số đếm và Thời gian",
+    "type": "Từ vựng",
+    "image": "https://ffqmgqkauhwfxinatqol.supabase.co/storage/v1/object/sign/Sign_images/Day.png?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV8zMTMzZjYwYi1mMjdiLTQ3M2UtODgzMS1mNTQxNzhmNTk5YjAiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJTaWduX2ltYWdlcy9EYXkucG5nIiwiaWF0IjoxNzYxNzAyMTEzLCJleHAiOjE3NjY4ODYxMTN9.iaSZAFfr3gfzYHMk43b86XsIcaiQxixe8X3BtnHeLnU",
+    "videos": "https://gajsffqnyujwyllfcmny.supabase.co/storage/v1/object/public/sign_videos/sign_041%20-%20LOOP%20-%20Videobolt.net.mp4"
+  },
+  {
+    "term": "Tháng",
+    "description": "Tay trái khép, lòng bàn tay hướng sang phải, đầu ngón tay hướng về phía trước, đặt trước ngực. Tay phải nắm, lòng bàn tay hướng sang trái, đặt áp vào lòng bàn tay phải, đưa tay xuống dưới.",
+    "lesson": "Bài 2 - Số đếm và Thời gian",
+    "type": "Từ vựng",
+    "image": "https://ffqmgqkauhwfxinatqol.supabase.co/storage/v1/object/sign/Sign_images/Month.png?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV8zMTMzZjYwYi1mMjdiLTQ3M2UtODgzMS1mNTQxNzhmNTk5YjAiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJTaWduX2ltYWdlcy9Nb250aC5wbmciLCJpYXQiOjE3NjE3MDIxMzYsImV4cCI6MTc2Njg4NjEzNn0.1eUbdyMeQMNJBLgJFX3zEvHDsbd6PCW0-Sxk8XJNI50",
+    "videos": "https://gajsffqnyujwyllfcmny.supabase.co/storage/v1/object/public/sign_videos/sign_042%20-%20LOOP%20-%20Videobolt.net.mp4"
+  },
+  {
+    "term": "Năm",
+    "description": "Hai tay nắm, lòng bàn tay hướng vào trong, đầu ngón tay hướng sang hai bên, đặt trước ngực, tay phải đặt trên tay trái, giữ nguyên tay trái, đưa tay phải theo một vòng tròn từ ngoài vào trong rồi đặt chạm trên tay trái.",
+    "lesson": "Bài 2 - Số đếm và Thời gian",
+    "type": "Từ vựng",
+    "image": "https://ffqmgqkauhwfxinatqol.supabase.co/storage/v1/object/sign/Sign_images/Year.png?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV8zMTMzZjYwYi1mMjdiLTQ3M2UtODgzMS1mNTQxNzhmNTk5YjAiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJTaWduX2ltYWdlcy9ZZWFyLnBuZyIsImlhdCI6MTc2MTcwMjE1MiwiZXhwIjoxNzY2ODg2MTUyfQ.A1OcwwA7qmo274BESC4CXznXDoNDUEVhS_8FMg5GNbg",
+    "videos": "https://gajsffqnyujwyllfcmny.supabase.co/storage/v1/object/public/sign_videos/sign_043%20-%20LOOP%20-%20Videobolt.net.mp4"
+  },
+  {
+    "term": "Hôm nay",
+    "description": "Hai tay khép, lòng bàn tay ngửa, đầu ngón tay hướng về phía trước, đặt ở hai bên, ngang tầm ngực, đưa nhẹ đồng thời cả hai tay xuống dưới.",
+    "lesson": "Bài 2 - Số đếm và Thời gian",
+    "type": "Từ vựng",
+    "image": "https://ffqmgqkauhwfxinatqol.supabase.co/storage/v1/object/sign/Sign_images/Today.png?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV8zMTMzZjYwYi1mMjdiLTQ3M2UtODgzMS1mNTQxNzhmNTk5YjAiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJTaWduX2ltYWdlcy9Ub2RheS5wbmciLCJpYXQiOjE3NjE3MDIxOTIsImV4cCI6MTc2Njg4NjE5Mn0.VlHepvzkYsRXSI8ns9gHovc89jYsN6rcMfFT0Tc0ocI",
+    "videos": "https://gajsffqnyujwyllfcmny.supabase.co/storage/v1/object/public/sign_videos/sign_044%20-%20LOOP%20-%20Videobolt.net.mp4"
+  },
+  {
+    "term": "Hôm qua",
+    "description": "Tay phải nắm, ngón tay cái mở ra hướng thẳng lên trên, lòng bàn tay hướng sang trái, đặt phía trên vai phải, đưa tay gập về phía sau.",
+    "lesson": "Bài 2 - Số đếm và Thời gian",
+    "type": "Từ vựng",
+    "image": "https://ffqmgqkauhwfxinatqol.supabase.co/storage/v1/object/sign/Sign_images/Yesterday.png?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV8zMTMzZjYwYi1mMjdiLTQ3M2UtODgzMS1mNTQxNzhmNTk5YjAiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJTaWduX2ltYWdlcy9ZZXN0ZXJkYXkucG5nIiwiaWF0IjoxNzYxNzAyMTc0LCJleHAiOjE3NjY4ODYxNzR9.yDWWJ_N-X8OGUFjtod7vFQAeYRsRyTK2aW6qCulSpkY",
+    "videos": "https://gajsffqnyujwyllfcmny.supabase.co/storage/v1/object/public/sign_videos/sign_045%20-%20LOOP%20-%20Videobolt.net.mp4"
+  },
+  {
+    "term": "Buổi sáng",
+    "description": "Hai tay khép, lòng bàn tay hướng vào trong, đầu ngón tay hướng chếch về hai phía, đặt trước ngực, tay trái ở ngoài, tay phải ở trong, giữ nguyên tay trái, đưa tay phải theo đường vòng cung lên trên – sang phải.",
+    "lesson": "Bài 2 - Số đếm và Thời gian",
+    "type": "Từ vựng",
+    "image": "https://ffqmgqkauhwfxinatqol.supabase.co/storage/v1/object/sign/Sign_images/Morning.png?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV8zMTMzZjYwYi1mMjdiLTQ3M2UtODgzMS1mNTQxNzhmNTk5YjAiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJTaWduX2ltYWdlcy9Nb3JuaW5nLnBuZyIsImlhdCI6MTc2MTcwMjI0MywiZXhwIjoxNzY2ODg2MjQzfQ.rxTDw2M2KyzCKEV9MzwPJiCriigPvKHP0N1Yd3IvDc0",
+    "videos": "https://gajsffqnyujwyllfcmny.supabase.co/storage/v1/object/public/sign_videos/sign_046%20-%20LOOP%20-%20Videobolt.net.mp4"
+  },
+  {
+    "term": "Buổi trưa",
+    "description": "Tay trái khép, lòng bàn tay ngửa, đặt ngang trước bụng. Tay phải giống chữ cái ngón tay \"T\", lòng bàn tay hướng sang trái, đầu ngón tay hướng lên trên, đặt chạm khuỷu tay vào lòng bàn tay trái.",
+    "lesson": "Bài 2 - Số đếm và Thời gian",
+    "type": "Từ vựng",
+    "image": "https://ffqmgqkauhwfxinatqol.supabase.co/storage/v1/object/sign/Sign_images/Noon.png?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV8zMTMzZjYwYi1mMjdiLTQ3M2UtODgzMS1mNTQxNzhmNTk5YjAiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJTaWduX2ltYWdlcy9Ob29uLnBuZyIsImlhdCI6MTc2MTcwMjI3MSwiZXhwIjoxNzY2ODg2MjcxfQ.iBg4bDRc_oMTraS_p4BYHs4BSbMRx5fc0m6rCpBMSkw",
+    "videos": "https://gajsffqnyujwyllfcmny.supabase.co/storage/v1/object/public/sign_videos/sign_047%20-%20LOOP%20-%20Videobolt.net.mp4"
+  },
+  {
+    "term": "Buổi chiều",
+    "description": "Tay trái khép, lòng bàn tay úp, đầu ngón tay hướng sang phải, đặt trước ngực. Tay phải khép, hơi khum lại, lòng bàn tay úp, đầu ngón tay hướng về phía trước, đặt bên trên tay trái, đưa tay qua tay trái xuống dưới theo đường vòng cung.",
+    "lesson": "Bài 2 - Số đếm và Thời gian",
+    "type": "Từ vựng",
+    "image": "https://ffqmgqkauhwfxinatqol.supabase.co/storage/v1/object/sign/Sign_images/Afternoon.png?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV8zMTMzZjYwYi1mMjdiLTQ3M2UtODgzMS1mNTQxNzhmNTk5YjAiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJTaWduX2ltYWdlcy9BZnRlcm5vb24ucG5nIiwiaWF0IjoxNzYxNzAyMjkyLCJleHAiOjE3NjY4ODYyOTJ9.prTJmg2LU7RiLDZBA6o9ynweqlLxSq37_GkifQSv0tU",
+    "videos": "https://gajsffqnyujwyllfcmny.supabase.co/storage/v1/object/public/sign_videos/sign_048%20-%20LOOP%20-%20Videobolt.net.mp4"
+  },
+  {
+    "term": "Buổi tối",
+    "description": "Hai tay khép, lòng bàn tay hướng vào trong, đầu ngón tay hướng lên trên, đặt song song trước mặt, đưa đồng thời hai tay lại gần và chạm hai mép bàn tay vào nhau.",
+    "lesson": "Bài 2 - Số đếm và Thời gian",
+    "type": "Từ vựng",
+    "image": "https://ffqmgqkauhwfxinatqol.supabase.co/storage/v1/object/sign/Sign_images/Evening.png?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV8zMTMzZjYwYi1mMjdiLTQ3M2UtODgzMS1mNTQxNzhmNTk5YjAiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJTaWduX2ltYWdlcy9FdmVuaW5nLnBuZyIsImlhdCI6MTc2MTcwMjM0MywiZXhwIjoxNzY2ODg2MzQzfQ.zakJO4H3ZBB-S81TomuPv8iXi26In3j3uHbRkBPdNUA",
+    "videos": "https://gajsffqnyujwyllfcmny.supabase.co/storage/v1/object/public/sign_videos/sign_049%20-%20LOOP%20-%20Videobolt.net.mp4"
+  },
+  {
+    "term": "Đêm",
+    "description": "Hai tay khép, lòng bàn tay hướng vào trong, đầu các ngón tay hướng lên trên, đặt song song trước ngực, đưa đồng thời hai tay bắt chéo vào nhau qua mặt.",
+    "lesson": "Bài 2 - Số đếm và Thời gian",
+    "type": "Từ vựng",
+    "image": "https://ffqmgqkauhwfxinatqol.supabase.co/storage/v1/object/sign/Sign_images/Night.png?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV8zMTMzZjYwYi1mMjdiLTQ3M2UtODgzMS1mNTQxNzhmNTk5YjAiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJTaWduX2ltYWdlcy9OaWdodC5wbmciLCJpYXQiOjE3NjE3MDIzODEsImV4cCI6MTc2Njg4NjM4MX0.6VNagNS4SccRqJhy0a9-e5dXLhiOA-ZfTNtso1vphjA",
+    "videos": "https://gajsffqnyujwyllfcmny.supabase.co/storage/v1/object/public/sign_videos/sign_050%20-%20LOOP%20-%20Videobolt.net.mp4"
+  },
+  {
+    "term": "Chào",
+    "description": "Tay phải khép, lòng bàn tay hướng về phía trước, đầu ngón tay hướng lên trên, đặt bên phải, ngang tầm với mặt, đưa nhẹ tay sang hai bên (lặp lại 1 – 2 lần).",
+    "lesson": "Bài 3 - Giao tiếp cơ bản và Cảm xúc",
+    "type": "Từ vựng",
+    "image": "https://ffqmgqkauhwfxinatqol.supabase.co/storage/v1/object/sign/Sign_images/Hi.png?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV8zMTMzZjYwYi1mMjdiLTQ3M2UtODgzMS1mNTQxNzhmNTk5YjAiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJTaWduX2ltYWdlcy9IaS5wbmciLCJpYXQiOjE3NjE2NTc2OTgsImV4cCI6MTc2Njg0MTY5OH0.KCP_qDQinS-ZNAN9sOjt-rvNPiYZkDJCgT8iwelGdFc",
+    "videos": "https://gajsffqnyujwyllfcmny.supabase.co/storage/v1/object/public/sign_videos/sign_052%20-%20LOOP%20-%20Videobolt.net.mp4"
+  },
+  {
+    "term": "Xin lỗi",
+    "description": "Tay trái khép, lòng bàn tay ngửa, đầu ngón tay hướng chếch sang phải, đặt trước ngực. Tay phải khép, lòng bàn tay úp, đầu ngón tay hướng chếch sang trái, đặt các đầu ngón tay vào lòng bàn tay trái, đưa tay dọc trong lòng bàn tay trái (lập lại 2 – 3 lần).",
+    "lesson": "Bài 3 - Giao tiếp cơ bản và Cảm xúc",
+    "type": "Từ vựng",
+    "image": "https://ffqmgqkauhwfxinatqol.supabase.co/storage/v1/object/sign/Sign_images/Sorry.png?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV8zMTMzZjYwYi1mMjdiLTQ3M2UtODgzMS1mNTQxNzhmNTk5YjAiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJTaWduX2ltYWdlcy9Tb3JyeS5wbmciLCJpYXQiOjE3NjE2NTc2NDYsImV4cCI6MTc2Njg0MTY0Nn0.U10gqiNQO1APDIqJAkQ_hVJeUUiS-e3eTD-6jFX8JTA",
+    "videos": "https://gajsffqnyujwyllfcmny.supabase.co/storage/v1/object/public/sign_videos/sign_053%20-%20LOOP%20-%20Videobolt.net.mp4"
+  },
+  {
+    "term": "Xin phép",
+    "description": "Tay phải khép, lòng bàn tay ngửa, đầu ngón tay hướng về phía trước, đặt trước ngực, di chuyển tay áp vào giữa ngực, lòng bàn tay hướng sang trái, đầu ngón tay hướng lên trên.",
+    "lesson": "Bài 3 - Giao tiếp cơ bản và Cảm xúc",
+    "type": "Từ vựng",
+    "image": "https://ffqmgqkauhwfxinatqol.supabase.co/storage/v1/object/sign/Sign_images/Please.png?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV8zMTMzZjYwYi1mMjdiLTQ3M2UtODgzMS1mNTQxNzhmNTk5YjAiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJTaWduX2ltYWdlcy9QbGVhc2UucG5nIiwiaWF0IjoxNzYxNzAwODk0LCJleHAiOjE3NjY4ODQ4OTR9.ln7B5aHqTRPtVmqm7M2aq_rIaNn6rv7FrUXd-VhM--o",
+    "videos": "https://gajsffqnyujwyllfcmny.supabase.co/storage/v1/object/public/sign_videos/sign_054%20-%20LOOP%20-%20Videobolt.net.mp4"
+  },
+  {
+    "term": "Vui",
+    "description": "Hai tay khép, lòng bàn tay hướng vào trong, đầu ngón tay của hai tay chạm vào nhau, đặt sát ngực, đưa nhẹ đồng thời cả hai tay lên trên và về hai bên (lặp lại 2 lần).",
+    "lesson": "Bài 3 - Giao tiếp cơ bản và Cảm xúc",
+    "type": "Từ vựng",
+    "image": "https://ffqmgqkauhwfxinatqol.supabase.co/storage/v1/object/sign/Sign_images/Happy.png?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV8zMTMzZjYwYi1mMjdiLTQ3M2UtODgzMS1mNTQxNzhmNTk5YjAiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJTaWduX2ltYWdlcy9IYXBweS5wbmciLCJpYXQiOjE3NjE3MDA5NzMsImV4cCI6MTc2Njg4NDk3M30._b3OUtX0MKnesG-hLJzynGdniZCX7zSfGp95b707zEY",
+    "videos": "https://gajsffqnyujwyllfcmny.supabase.co/storage/v1/object/public/sign_videos/sign_055%20-%20LOOP%20-%20Videobolt.net.mp4"
+  },
+  {
+    "term": "Buồn",
+    "description": "Tay phải nắm, lòng bàn tay hướng vào trong, đặt áp vào giữa ngực, đưa tay phải xoay tròn theo chiều kim đồng hồ.",
+    "lesson": "Bài 3 - Giao tiếp cơ bản và Cảm xúc",
+    "type": "Từ vựng",
+    "image": "https://ffqmgqkauhwfxinatqol.supabase.co/storage/v1/object/sign/Sign_images/Sad.png?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV8zMTMzZjYwYi1mMjdiLTQ3M2UtODgzMS1mNTQxNzhmNTk5YjAiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJTaWduX2ltYWdlcy9TYWQucG5nIiwiaWF0IjoxNzYxNzAxMDY2LCJleHAiOjE3NjY4ODUwNjZ9.6gPkLA_FiLFaf75aibXiUzY5_3H1DfSKfo_IDeFvHp8",
+    "videos": "https://gajsffqnyujwyllfcmny.supabase.co/storage/v1/object/public/sign_videos/sign_056%20-%20LOOP%20-%20Videobolt.net.mp4"
+  },
+  {
+    "term": "Khoẻ",
+    "description": "Hai tay nắm, lòng bàn tay hướng vào nhau, đặt ở hai bên, ngang tầm với vai, gập mạnh đồng thời cả hai tay vào trong và xuống dưới.",
+    "lesson": "Bài 3 - Giao tiếp cơ bản và Cảm xúc",
+    "type": "Từ vựng",
+    "image": "https://ffqmgqkauhwfxinatqol.supabase.co/storage/v1/object/sign/Sign_images/Strong.png?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV8zMTMzZjYwYi1mMjdiLTQ3M2UtODgzMS1mNTQxNzhmNTk5YjAiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJTaWduX2ltYWdlcy9TdHJvbmcucG5nIiwiaWF0IjoxNzYxNzAxMDg3LCJleHAiOjE3NjY4ODUwODd9.EKqdvNQZJ_WSiVkrRWQHM7yHunsQjOSXU2KUD1M8Cek",
+    "videos": "https://gajsffqnyujwyllfcmny.supabase.co/storage/v1/object/public/sign_videos/sign_058%20-%20LOOP%20-%20Videobolt.net.mp4"
+  },
+  {
+    "term": "Mệt",
+    "description": "Tay phải mở xoè, lòng bàn tay hướng vào trong, đầu ngón tay hướng “M' sang trái, đặt áp vào giữa ngực, đưa nhẹ tay, tay xuống dưới 1 – 2 lần.",
+    "lesson": "Bài 3 - Giao tiếp cơ bản và Cảm xúc",
+    "type": "Từ vựng",
+    "image": "https://ffqmgqkauhwfxinatqol.supabase.co/storage/v1/object/sign/Sign_images/Tired.png?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV8zMTMzZjYwYi1mMjdiLTQ3M2UtODgzMS1mNTQxNzhmNTk5YjAiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJTaWduX2ltYWdlcy9UaXJlZC5wbmciLCJpYXQiOjE3NjE3MDExMjYsImV4cCI6MTc2Njg4NTEyNn0.-i3XWeXtJ48Y7onimdl3zwWhbGBkGnjqzL1JWpOrhvk",
+    "videos": "https://gajsffqnyujwyllfcmny.supabase.co/storage/v1/object/public/sign_videos/sign_057%20-%20LOOP%20-%20Videobolt.net.mp4"
+  },
+  {
+    "term": "Yếu",
+    "description": "Hai tay giống chữ cái ngón tay \"Y\", lòng bàn tay úp, đầu ngón tay hướng về phía trước, đặt song song trước ngực, di chuyển đồng thời hai tay theo đường vòng cung từ ngoài vào trong, đồng thời khuôn mặt thể hiện sự mệt mỏi.",
+    "lesson": "Bài 3 - Giao tiếp cơ bản và Cảm xúc",
+    "type": "Từ vựng",
+    "image": "https://ffqmgqkauhwfxinatqol.supabase.co/storage/v1/object/sign/Sign_images/Weak.png?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV8zMTMzZjYwYi1mMjdiLTQ3M2UtODgzMS1mNTQxNzhmNTk5YjAiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJTaWduX2ltYWdlcy9XZWFrLnBuZyIsImlhdCI6MTc2MTcwMTEwOCwiZXhwIjoxNzY2ODg1MTA4fQ.DKh7Tcj8DFbQaQRh-c3IP20BqdCvGBCAj9eD4ESSP14",
+    "videos": "https://gajsffqnyujwyllfcmny.supabase.co/storage/v1/object/public/sign_videos/sign_059%20-%20LOOP%20-%20Videobolt.net.mp4"
+  },
+  {
+    "term": "Bạn",
+    "description": "Hai tay khép, ngón cái mở ra, lòng bàn tay hướng vào nhau, đầu ngón tay trái hướng sang phải, đầu ngón tay phải hướng về trước, đặt trước ngực, tay phải ở trên tay trái, bắt hai tay vào nhau.",
+    "lesson": "Bài 3 - Giao tiếp cơ bản và Cảm xúc",
+    "type": "Từ vựng",
+    "image": "https://ffqmgqkauhwfxinatqol.supabase.co/storage/v1/object/sign/Sign_images/Friend.png?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV8zMTMzZjYwYi1mMjdiLTQ3M2UtODgzMS1mNTQxNzhmNTk5YjAiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJTaWduX2ltYWdlcy9GcmllbmQucG5nIiwiaWF0IjoxNzYxNjU3NzIyLCJleHAiOjE3NjY4NDE3MjJ9.Bm9_rzfTmuB1MpdOVomEYKOsAnIHKY9aQiGTZ_dmfE8",
+    "videos": "https://gajsffqnyujwyllfcmny.supabase.co/storage/v1/object/public/sign_videos/sign_060%20-%20LOOP%20-%20Videobolt.net.mp4"
+  },
+  {
+    "term": "Tôi",
+    "description": "Ngón trỏ duỗi, các ngón còn lại nắm, di chuyển từ ngoài vào giữa ngực sao cho ngón trỏ chạm vào ngực.",
+    "lesson": "Bài 3 - Giao tiếp cơ bản và Cảm xúc",
+    "type": "Từ vựng",
+    "image": "",
+    "videos": "https://gajsffqnyujwyllfcmny.supabase.co/storage/v1/object/public/sign_videos/sign_051%20-%20LOOP%20-%20Videobolt.net.mp4"
+  },
+  {
+    "term": "Tên là gì?",
+    "description": "Hai tay giống số tự nhiên \"1\", lòng bàn tay hướng vào nhau, đặt chéo ngón trỏ phải bên trên ngón trỏ trái, trước ngực, đưa ngón trỏ phải vào ngón trỏ trái (lặp lại 2 lần).",
+    "lesson": "Bài 3 - Giao tiếp cơ bản và Cảm xúc",
+    "type": "Từ vựng",
+    "image": "https://ffqmgqkauhwfxinatqol.supabase.co/storage/v1/object/sign/Sign_images/WhatsUrName.png?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV8zMTMzZjYwYi1mMjdiLTQ3M2UtODgzMS1mNTQxNzhmNTk5YjAiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJTaWduX2ltYWdlcy9XaGF0c1VyTmFtZS5wbmciLCJpYXQiOjE3NjE2NTc2MjksImV4cCI6MTc2Njg0MTYyOX0.CzftnJYnGMLrMHZk7kvp8K9t50N4ERAcmLDxdk8TgQ4",
+    "videos": "https://gajsffqnyujwyllfcmny.supabase.co/storage/v1/object/public/sign_videos/sign_061%20-%20LOOP%20-%20Videobolt.net.mp4"
+  },
+  {
+    "term": "Tuổi",
+    "description": "Tay trái nắm, lòng bàn tay hướng vào trong, đặt trước ngực. Tay phải khép, hơi khum lại, lòng bàn tay hướng ra ngoài, đầu ngón tay hướng chếch lên trên, đặt trên tay trái, giữ nguyên cánh tay, xoay cổ tay một vòng từ ngoài vào trong đồng thời nắm tay lại rồi chạm vào tay trái.",
+    "lesson": "Bài 3 - Giao tiếp cơ bản và Cảm xúc",
+    "type": "Từ vựng",
+    "image": "https://ffqmgqkauhwfxinatqol.supabase.co/storage/v1/object/sign/Sign_images/Age.png?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV8zMTMzZjYwYi1mMjdiLTQ3M2UtODgzMS1mNTQxNzhmNTk5YjAiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJTaWduX2ltYWdlcy9BZ2UucG5nIiwiaWF0IjoxNzYxNjU3NzQ5LCJleHAiOjE3NjY4NDE3NDl9.LTiGquC0Aag1CmHa08jIq9WUh61lBoQLOGMKEI2UeJM",
+    "videos": "https://gajsffqnyujwyllfcmny.supabase.co/storage/v1/object/public/sign_videos/sign_062%20-%20LOOP%20-%20Videobolt.net.mp4"
+  },
+  {
+    "term": "Thế nào?",
+    "description": "Hai tay mở, lòng bàn tay úp, đầu ngón tay hướng về phía trước, đặt song song, trước ngực, đưa nhẹ cả hai tay lên trên và về hai phía, đồng thời mở xoè các ngón tay ra, lòng bàn tay ngừa.",
+    "lesson": "Bài 3 - Giao tiếp cơ bản và Cảm xúc",
+    "type": "Từ vựng",
+    "image": "https://ffqmgqkauhwfxinatqol.supabase.co/storage/v1/object/sign/Sign_images/How.png?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV8zMTMzZjYwYi1mMjdiLTQ3M2UtODgzMS1mNTQxNzhmNTk5YjAiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJTaWduX2ltYWdlcy9Ib3cucG5nIiwiaWF0IjoxNzYxNzAwOTQ1LCJleHAiOjE3NjY4ODQ5NDV9.c6i4VwROdRv6-VMWKUJ2WAdUtRykhRlND2P21kwz3mQ",
+    "videos": "https://gajsffqnyujwyllfcmny.supabase.co/storage/v1/object/public/sign_videos/sign_063%20-%20LOOP%20-%20Videobolt.net.mp4"
+  },
+  {
+    "term": "Bao nhiêu?",
+    "description": "Tay phải nắm, lòng bàn tay ngửa, đặt trước ngực, giữ nguyên cánh tay, mở xoè bàn tay ra (lặp lại 2 lần).",
+    "lesson": "Bài 3 - Giao tiếp cơ bản và Cảm xúc",
+    "type": "Từ vựng",
+    "image": "https://ffqmgqkauhwfxinatqol.supabase.co/storage/v1/object/sign/Sign_images/HowMuch.png?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV8zMTMzZjYwYi1mMjdiLTQ3M2UtODgzMS1mNTQxNzhmNTk5YjAiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJTaWduX2ltYWdlcy9Ib3dNdWNoLnBuZyIsImlhdCI6MTc2MTY1NzYxMSwiZXhwIjoxNzY2ODQxNjExfQ.WpyjsgHQvIzZEcVhXNLU8hANrbrWa8n5issZllw3AYU",
+    "videos": "https://gajsffqnyujwyllfcmny.supabase.co/storage/v1/object/public/sign_videos/sign_064%20-%20LOOP%20-%20Videobolt.net.mp4"
+  },
+  {
+    "term": "Ở đâu?",
+    "description": "Hai tay nắm, ngón cái duỗi thẳng, lòng bàn tay hướng xuống dưới, đặt trước ngực, đầu ngón cái tay phải đặt chéo trên đầu ngón cái tay trái, đưa nhẹ tay xuống dưới, sau đó đưa hai tay về hai phía đồng thời các ngón tay mở xoè ra, lòng bàn tay ngửa.",
+    "lesson": "Bài 3 - Giao tiếp cơ bản và Cảm xúc",
+    "type": "Từ vựng",
+    "image": "https://ffqmgqkauhwfxinatqol.supabase.co/storage/v1/object/sign/Sign_images/Where.png?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV8zMTMzZjYwYi1mMjdiLTQ3M2UtODgzMS1mNTQxNzhmNTk5YjAiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJTaWduX2ltYWdlcy9XaGVyZS5wbmciLCJpYXQiOjE3NjE3MDA4NjMsImV4cCI6MTc2Njg4NDg2M30.LMMgiD16BCQrH5JKjKHaxE-qYmkBtqFxHPgTJZUASAw",
+    "videos": "https://gajsffqnyujwyllfcmny.supabase.co/storage/v1/object/public/sign_videos/sign_065%20-%20LOOP%20-%20Videobolt.net.mp4"
+  },
+  {
+    "term": "Làm gì?",
+    "description": "Hai tay nắm, lòng bàn tay hướng vào trong, đặt trước ngực, tay phải đặt trên tay trái, di chuyển tay phải lên - xuống chạm vào tay trái (lặp lại 2 lần).",
+    "lesson": "Bài 3 - Giao tiếp cơ bản và Cảm xúc",
+    "type": "Từ vựng",
+    "image": "https://ffqmgqkauhwfxinatqol.supabase.co/storage/v1/object/sign/Sign_images/WhatDoing.png?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV8zMTMzZjYwYi1mMjdiLTQ3M2UtODgzMS1mNTQxNzhmNTk5YjAiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJTaWduX2ltYWdlcy9XaGF0RG9pbmcucG5nIiwiaWF0IjoxNzYxNzAxMDQyLCJleHAiOjE3NjY4ODUwNDJ9.-VdfkSHw-2GdCI2-us276N8_gmf-dVmkJJyp6_w6qDY",
+    "videos": "https://gajsffqnyujwyllfcmny.supabase.co/storage/v1/object/public/sign_videos/sign_066%20-%20LOOP%20-%20Videobolt.net.mp4"
+  },
+  {
+    "term": "Đi",
+    "description": "Tay phải giống chữ cái ngón tay \"V\", lòng bàn tay úp, đầu ngón tay hướng xuống dưới, đặt trước ngực, đưa tay về phía trước đồng thời cử động 2 ngón tay lần lượt ra – vào.",
+    "lesson": "Bài 4 - Hoạt động hàng ngày",
+    "type": "Từ vựng",
+    "image": "https://ffqmgqkauhwfxinatqol.supabase.co/storage/v1/object/sign/Sign_images/Walk.png?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV8zMTMzZjYwYi1mMjdiLTQ3M2UtODgzMS1mNTQxNzhmNTk5YjAiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJTaWduX2ltYWdlcy9XYWxrLnBuZyIsImlhdCI6MTc2MTcwMTI4NSwiZXhwIjoxNzY2ODg1Mjg1fQ.GVdGopctvil0sK0wOw-JSTw2jPETRFni_nn21pWxuC4",
+    "videos": "https://gajsffqnyujwyllfcmny.supabase.co/storage/v1/object/public/sign_videos/sign_067%20-%20LOOP%20-%20Videobolt.net.mp4"
+  },
+  {
+    "term": "Đứng",
+    "description": "Tay trái duỗi thẳng, khép kín, lòng bàn tay hướng lên trên, đầu các ngón tay hướng ra ngoài.",
+    "lesson": "Bài 4 - Hoạt động hàng ngày",
+    "type": "Từ vựng",
+    "image": "https://ffqmgqkauhwfxinatqol.supabase.co/storage/v1/object/sign/Sign_images/Stand.png?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV8zMTMzZjYwYi1mMjdiLTQ3M2UtODgzMS1mNTQxNzhmNTk5YjAiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJTaWduX2ltYWdlcy9TdGFuZC5wbmciLCJpYXQiOjE3NjE3MDEzMDUsImV4cCI6MTc2Njg4NTMwNX0.WX4eToajBrD6U_u_ZJdRx3dWKqivcckEkiDf0UzVXEs",
+    "videos": "https://gajsffqnyujwyllfcmny.supabase.co/storage/v1/object/public/sign_videos/sign_068%20-%20LOOP%20-%20Videobolt.net.mp4"
+  },
+  {
+    "term": "Ngồi",
+    "description": "Tay trái giống chữ cái ngón tay \"U\", lòng bàn tay úp, đầu ngón tay hướng sang bên phải, đặt trước ngực. Tay phải giống chữ cái ngón tay \"V\", lòng bàn tay úp, đầu ngón tay hướng xuống dưới, ôm lấy ngón trỏ và ngón giữa tay trái.",
+    "lesson": "Bài 4 - Hoạt động hàng ngày",
+    "type": "Từ vựng",
+    "image": "https://ffqmgqkauhwfxinatqol.supabase.co/storage/v1/object/sign/Sign_images/Sit.png?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV8zMTMzZjYwYi1mMjdiLTQ3M2UtODgzMS1mNTQxNzhmNTk5YjAiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJTaWduX2ltYWdlcy9TaXQucG5nIiwiaWF0IjoxNzYxNzAxMzIxLCJleHAiOjE3NjY4ODUzMjF9.qU4DlXuP9YsFVz8gQGku5uDyHuzomhYOfWvkSkaKAPc",
+    "videos": "https://gajsffqnyujwyllfcmny.supabase.co/storage/v1/object/public/sign_videos/sign_069%20-%20LOOP%20-%20Videobolt.net.mp4"
+  },
+  {
+    "term": "Nằm",
+    "description": "Hai tay khép, lòng bàn tay hướng về phía trước, đặt chồng vào nhau, áp vào sau gáy, đầu hơi ngả ra phía sau.",
+    "lesson": "Bài 4 - Hoạt động hàng ngày",
+    "type": "Từ vựng",
+    "image": "https://ffqmgqkauhwfxinatqol.supabase.co/storage/v1/object/sign/Sign_images/Lay.png?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV8zMTMzZjYwYi1mMjdiLTQ3M2UtODgzMS1mNTQxNzhmNTk5YjAiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJTaWduX2ltYWdlcy9MYXkucG5nIiwiaWF0IjoxNzYxNzAxMzU0LCJleHAiOjE3NjY4ODUzNTR9.BBR8rcuwd8z1i5ocF1CwB3GP1ClcZ3WjS2f7e170HIg",
+    "videos": "https://gajsffqnyujwyllfcmny.supabase.co/storage/v1/object/public/sign_videos/sign_070%20-%20LOOP%20-%20Videobolt.net.mp4"
+  },
+  {
+    "term": "Chạy",
+    "description": "Hai tay nắm, lòng bàn tay hướng vào nhau, đặt song song trước bụng, di chuyển lần lượt hai tay ra - vào (lặp lại 2 lần).",
+    "lesson": "Bài 4 - Hoạt động hàng ngày",
+    "type": "Từ vựng",
+    "image": "https://ffqmgqkauhwfxinatqol.supabase.co/storage/v1/object/sign/Sign_images/Lay.png?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV8zMTMzZjYwYi1mMjdiLTQ3M2UtODgzMS1mNTQxNzhmNTk5YjAiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJTaWduX2ltYWdlcy9MYXkucG5nIiwiaWF0IjoxNzYxNzAxMzU0LCJleHAiOjE3NjY4ODUzNTR9.BBR8rcuwd8z1i5ocF1CwB3GP1ClcZ3WjS2f7e170HIg",
+    "videos": "https://gajsffqnyujwyllfcmny.supabase.co/storage/v1/object/public/sign_videos/sign_071%20-%20LOOP%20-%20Videobolt.net.mp4"
+  },
+  {
+    "term": "Nhảy",
+    "description": "Tay trái khép, lòng bàn tay ngửa, đầu ngón tay hướng về phía trước, đặt trước ngực. Tay phải giống chữ cái ngón tay \"V\", lòng bàn tay hướng vào trong, đầu ngón tay hướng xuống dưới, đặt chạm đầu ngón tay vào gắn cổ tay trái, di chuyển theo đường vòng cung đến đấu các ngón tay trái.",
+    "lesson": "Bài 4 - Hoạt động hàng ngày",
+    "type": "Từ vựng",
+    "image": "https://ffqmgqkauhwfxinatqol.supabase.co/storage/v1/object/sign/Sign_images/Jump.png?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV8zMTMzZjYwYi1mMjdiLTQ3M2UtODgzMS1mNTQxNzhmNTk5YjAiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJTaWduX2ltYWdlcy9KdW1wLnBuZyIsImlhdCI6MTc2MTcwMTM4OSwiZXhwIjoxNzY2ODg1Mzg5fQ.DREq6zjCSIySsfeFu4phqKbWDAOcY8Vwvp8GBVO-cWM",
+    "videos": "https://gajsffqnyujwyllfcmny.supabase.co/storage/v1/object/public/sign_videos/sign_072%20-%20LOOP%20-%20Videobolt.net.mp4"
+  },
+  {
+    "term": "Ngủ",
+    "description": "Tay phải khép, hơi khum lại, lòng bàn tay hướng sang trái, đầu ngón tay hướng lên trên, đặt áp vào má phải, đấu hơi ngả sang phải.",
+    "lesson": "Bài 4 - Hoạt động hàng ngày",
+    "type": "Từ vựng",
+    "image": "https://ffqmgqkauhwfxinatqol.supabase.co/storage/v1/object/sign/Sign_images/Sleep.png?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV8zMTMzZjYwYi1mMjdiLTQ3M2UtODgzMS1mNTQxNzhmNTk5YjAiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJTaWduX2ltYWdlcy9TbGVlcC5wbmciLCJpYXQiOjE3NjE3MDE0MTAsImV4cCI6MTc2Njg4NTQxMH0._fEJ1gnEpe-QaUF-_FLzQlDnnb0WkiEBOiY69QLMJHc",
+    "videos": "https://gajsffqnyujwyllfcmny.supabase.co/storage/v1/object/public/sign_videos/sign_073%20-%20LOOP%20-%20Videobolt.net.mp4"
+  },
+  {
+    "term": "Đi vệ sinh",
+    "description": "Tay phải giống chữ cái ngón tay \"V\", lòng bàn tay úp, đầu ngón tay hướng xuống dưới, gập hai ngón tay lần lượt ra vào và đưa tay về phía trước.",
+    "lesson": "Bài 4 - Hoạt động hàng ngày",
+    "type": "Từ vựng",
+    "image": "https://ffqmgqkauhwfxinatqol.supabase.co/storage/v1/object/sign/Sign_images/GoWC.png?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV8zMTMzZjYwYi1mMjdiLTQ3M2UtODgzMS1mNTQxNzhmNTk5YjAiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJTaWduX2ltYWdlcy9Hb1dDLnBuZyIsImlhdCI6MTc2MTcwMTQzMSwiZXhwIjoxNzY2ODg1NDMxfQ.--zUAlVxlgTubInOPU7nAa_AqrDwpOxe2vOhwuxNiFw",
+    "videos": "https://gajsffqnyujwyllfcmny.supabase.co/storage/v1/object/public/sign_videos/sign_074%20-%20LOOP%20-%20Videobolt.net.mp4"
+  },
+  {
+    "term": "Ăn",
+    "description": "Tay phải chụm, lòng bàn tay hướng vào trong, đặt trước cổ, di chuyển tay lên sát miệng.",
+    "lesson": "Bài 4 - Hoạt động hàng ngày",
+    "type": "Từ vựng",
+    "image": "https://ffqmgqkauhwfxinatqol.supabase.co/storage/v1/object/sign/Sign_images/Eat.png?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV8zMTMzZjYwYi1mMjdiLTQ3M2UtODgzMS1mNTQxNzhmNTk5YjAiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJTaWduX2ltYWdlcy9FYXQucG5nIiwiaWF0IjoxNzYxNzAxNDY2LCJleHAiOjE3NjY4ODU0NjZ9.Pk-sNi9QhYR2oN7TLhVnLumPsXyseIpEhFYfqK-YWT8",
+    "videos": "https://gajsffqnyujwyllfcmny.supabase.co/storage/v1/object/public/sign_videos/sign_075%20-%20LOOP%20-%20Videobolt.net.mp4"
+  },
+  {
+    "term": "Uống",
+    "description": "Tay phải giống chữ cái ngón tay “C”, lòng bàn tay hướng sang trái, đặt trước ngực, đưa tay lên sát miệng.",
+    "lesson": "Bài 4 - Hoạt động hàng ngày",
+    "type": "Từ vựng",
+    "image": "https://ffqmgqkauhwfxinatqol.supabase.co/storage/v1/object/sign/Sign_images/Drink.png?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV8zMTMzZjYwYi1mMjdiLTQ3M2UtODgzMS1mNTQxNzhmNTk5YjAiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJTaWduX2ltYWdlcy9Ecmluay5wbmciLCJpYXQiOjE3NjE3MDE0NTYsImV4cCI6MTc2Njg4NTQ1Nn0.8TerXuWKDnpEGZy-kuor88A37sIvoJch9l1RyUAG_AY",
+    "videos": "https://gajsffqnyujwyllfcmny.supabase.co/storage/v1/object/public/sign_videos/sign_076%20-%20LOOP%20-%20Videobolt.net.mp4"
+  },
+  {
+    "term": "Tắm",
+    "description": "Hai tay mở xoè, lòng bàn tay hướng vào trong, đầu ngón tay hướng sang hai bên, đặt áp vào người, tay trái đặt trên, tay phải đặt dưới, di chuyển đồng thời cả hai tay sang hai bên ngược chiều nhau (lặp lại 2 – 3 lần).",
+    "lesson": "Bài 4 - Hoạt động hàng ngày",
+    "type": "Từ vựng",
+    "image": "https://ffqmgqkauhwfxinatqol.supabase.co/storage/v1/object/sign/Sign_images/Bathe.png?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV8zMTMzZjYwYi1mMjdiLTQ3M2UtODgzMS1mNTQxNzhmNTk5YjAiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJTaWduX2ltYWdlcy9CYXRoZS5wbmciLCJpYXQiOjE3NjE3MDE2MDEsImV4cCI6MTc2Njg4NTYwMX0.6Z1ikprrWDpl0OEoPW_Mx7J9UY0EiztXfRGZEF5bd3E",
+    "videos": "https://gajsffqnyujwyllfcmny.supabase.co/storage/v1/object/public/sign_videos/sign_077%20-%20LOOP%20-%20Videobolt.net.mp4"
+  },
+  {
+    "term": "Khóc",
+    "description": "Tay phải giống chữ cái ngón tay \"B\", lòng bàn tay úp, đầu ngón tay hướng sang trái, đặt gần phía trước mắt, di chuyển tay qua lại (2 lần).",
+    "lesson": "Bài 4 - Hoạt động hàng ngày",
+    "type": "Từ vựng",
+    "image": "https://ffqmgqkauhwfxinatqol.supabase.co/storage/v1/object/sign/Sign_images/Cry.png?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV8zMTMzZjYwYi1mMjdiLTQ3M2UtODgzMS1mNTQxNzhmNTk5YjAiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJTaWduX2ltYWdlcy9DcnkucG5nIiwiaWF0IjoxNzYxNzAxNjIwLCJleHAiOjE3NjY4ODU2MjB9.mQQtlGr48W3xWuiovJ-ymXr7PtexKCCY7DEdoNJMVk8",
+    "videos": "https://gajsffqnyujwyllfcmny.supabase.co/storage/v1/object/public/sign_videos/sign_078%20-%20LOOP%20-%20Videobolt.net.mp4"
+  },
+  {
+    "term": "Cười",
+    "description": "Tay phải giống chữ cái ngón tay \"C\", lòng bàn tay hướng sang trái, đặt gần khoé miệng phải, di chuyển tay qua lại (2 lần).",
+    "lesson": "Bài 4 - Hoạt động hàng ngày",
+    "type": "Từ vựng",
+    "image": "https://ffqmgqkauhwfxinatqol.supabase.co/storage/v1/object/sign/Sign_images/Smile.png?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV8zMTMzZjYwYi1mMjdiLTQ3M2UtODgzMS1mNTQxNzhmNTk5YjAiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJTaWduX2ltYWdlcy9TbWlsZS5wbmciLCJpYXQiOjE3NjE3MDE1ODQsImV4cCI6MTc2Njg4NTU4NH0.ui_wC9vE5x-mLnKK6yd-dmXMEE-UX6Of754xEnPVwBs",
+    "videos": "https://gajsffqnyujwyllfcmny.supabase.co/storage/v1/object/public/sign_videos/sign_079%20-%20LOOP%20-%20Videobolt.net.mp4"
+  },
+  {
+    "term": "Gia đình",
+    "description": "Hai tay giống chữ cái ngón tay \"G\"; lòng bàn tay hướng vào nhau, đầu ngón tay hướng lên trên, đặt song song trước ngực, di chuyển đồng thời cả hai tay theo đường vòng cung về phía trước và chạm vào nhau, lòng bàn tay hướng vào trong.",
+    "lesson": "Bài 5 - Gia đình",
+    "type": "Từ vựng",
+    "image": "https://ffqmgqkauhwfxinatqol.supabase.co/storage/v1/object/sign/Sign_images/Family.png?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV8zMTMzZjYwYi1mMjdiLTQ3M2UtODgzMS1mNTQxNzhmNTk5YjAiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJTaWduX2ltYWdlcy9GYW1pbHkucG5nIiwiaWF0IjoxNzYxNjU2NDQyLCJleHAiOjE3NjY4NDA0NDJ9.P_daCKmxoXViGF82e9KLUtMneH_OvfRR0SL_SNvmwis",
+    "videos": "https://gajsffqnyujwyllfcmny.supabase.co/storage/v1/object/public/sign_videos/sign_080%20-%20LOOP%20-%20Videobolt.net.mp4"
+  },
+  {
+    "term": "Ông",
+    "description": "Tay phải giống chữ cái ngón tay \"C\", lòng bàn tay hướng vào trong, đặt phía dưới sát cầm, di chuyển tay xuống dưới, đồng thời nắm tay lại.",
+    "lesson": "Bài 5 - Gia đình",
+    "type": "Từ vựng",
+    "image": "https://ffqmgqkauhwfxinatqol.supabase.co/storage/v1/object/sign/Sign_images/Grandpa.png?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV8zMTMzZjYwYi1mMjdiLTQ3M2UtODgzMS1mNTQxNzhmNTk5YjAiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJTaWduX2ltYWdlcy9HcmFuZHBhLnBuZyIsImlhdCI6MTc2MTY1NjQ4NiwiZXhwIjoxNzY2ODQwNDg2fQ.imoDIDO1pKPJkIveudykvZsWw00-Kl5b1EFDzqTjSqo",
+    "videos": "https://gajsffqnyujwyllfcmny.supabase.co/storage/v1/object/public/sign_videos/sign_081%20-%20LOOP%20-%20Videobolt.net.mp4"
+  },
+  {
+    "term": "Bà",
+    "description": "Tay phải nắm, ngón cái và ngón trỏ mở ra, giống chữ cái ngón tay \"C\", lòng bàn tay hướng vào trong, đặt vào hai khoé miệng, đưa nhẹ tay xuống dưới đồng thời hai ngón tay chạm vào nhau.",
+    "lesson": "Bài 5 - Gia đình",
+    "type": "Từ vựng",
+    "image": "https://ffqmgqkauhwfxinatqol.supabase.co/storage/v1/object/sign/Sign_images/Grandma.png?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV8zMTMzZjYwYi1mMjdiLTQ3M2UtODgzMS1mNTQxNzhmNTk5YjAiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJTaWduX2ltYWdlcy9HcmFuZG1hLnBuZyIsImlhdCI6MTc2MTY1NjQ3NSwiZXhwIjoxNzY2ODQwNDc1fQ.4tGwLi3yHDaHvrZlY6UyDIAKfIuj6IHMMBtTyytq5p8",
+    "videos": "https://gajsffqnyujwyllfcmny.supabase.co/storage/v1/object/public/sign_videos/sign_082%20-%20LOOP%20-%20Videobolt.net.mp4"
+  },
+  {
+    "term": "Bố",
+    "description": "Tay phải giống chữ cái ngón tay \"B\", lòng bàn tay hướng vào trong, đặt chạm các đầu ngón tay vào cầm.",
+    "lesson": "Bài 5 - Gia đình",
+    "type": "Từ vựng",
+    "image": "https://ffqmgqkauhwfxinatqol.supabase.co/storage/v1/object/sign/Sign_images/Father.png?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV8zMTMzZjYwYi1mMjdiLTQ3M2UtODgzMS1mNTQxNzhmNTk5YjAiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJTaWduX2ltYWdlcy9GYXRoZXIucG5nIiwiaWF0IjoxNzYxNjU2NDY0LCJleHAiOjE3NjY4NDA0NjR9.8JZqt-4QQwZ9zrg9z84_h-akDA8KerEmLPUbjbhg-6M",
+    "videos": "https://gajsffqnyujwyllfcmny.supabase.co/storage/v1/object/public/sign_videos/sign_083%20-%20LOOP%20-%20Videobolt.net.mp4"
+  },
+  {
+    "term": "Mẹ",
+    "description": "Tay phải khép, lòng bàn tay hướng sang trái, đầu ngón tay hướng lên trên, đặt áp vào má phải.",
+    "lesson": "Bài 5 - Gia đình",
+    "type": "Từ vựng",
+    "image": "https://ffqmgqkauhwfxinatqol.supabase.co/storage/v1/object/sign/Sign_images/Mother.png?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV8zMTMzZjYwYi1mMjdiLTQ3M2UtODgzMS1mNTQxNzhmNTk5YjAiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJTaWduX2ltYWdlcy9Nb3RoZXIucG5nIiwiaWF0IjoxNzYxNjU2NDk5LCJleHAiOjE3NjY4NDA0OTl9.3OCFYKtGx3RO2tv_G_8ZfQoPo8uAryorCe34wwQCkR4",
+    "videos": "https://gajsffqnyujwyllfcmny.supabase.co/storage/v1/object/public/sign_videos/sign_084%20-%20LOOP%20-%20Videobolt.net.mp4"
+  },
+  {
+    "term": "Em trai",
+    "description": "Tay phải khép, lòng bàn tay úp, đầu ngón tay hướng sang trái, đặt sát giữa ngực, di chuyển xuống dưới.",
+    "lesson": "Bài 5 - Gia đình",
+    "type": "Từ vựng",
+    "image": "https://ffqmgqkauhwfxinatqol.supabase.co/storage/v1/object/sign/Sign_images/YoungerBrother.png?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV8zMTMzZjYwYi1mMjdiLTQ3M2UtODgzMS1mNTQxNzhmNTk5YjAiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJTaWduX2ltYWdlcy9Zb3VuZ2VyQnJvdGhlci5wbmciLCJpYXQiOjE3NjE2NTY2NjAsImV4cCI6MTc2Njg0MDY2MH0.hT59o09dNlvqvgG1g7548ZfU4e3b20tjZlKELWtGl6c",
+    "videos": "https://gajsffqnyujwyllfcmny.supabase.co/storage/v1/object/public/sign_videos/sign_085%20-%20LOOP%20-%20Videobolt.net.mp4"
+  },
+  {
+    "term": "Em gái",
+    "description": "Tay phải khép, lòng bàn tay úp, đầu ngón tay hướng sang trái, đặt sát giữa ngực, di chuyển xuống dưới.",
+    "lesson": "Bài 5 - Gia đình",
+    "type": "Từ vựng",
+    "image": "https://ffqmgqkauhwfxinatqol.supabase.co/storage/v1/object/sign/Sign_images/YoungerBrother.png?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV8zMTMzZjYwYi1mMjdiLTQ3M2UtODgzMS1mNTQxNzhmNTk5YjAiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJTaWduX2ltYWdlcy9Zb3VuZ2VyQnJvdGhlci5wbmciLCJpYXQiOjE3NjE2NTY2NjAsImV4cCI6MTc2Njg0MDY2MH0.hT59o09dNlvqvgG1g7548ZfU4e3b20tjZlKELWtGl6c",
+    "videos": "https://gajsffqnyujwyllfcmny.supabase.co/storage/v1/object/public/sign_videos/sign_086%20-%20LOOP%20-%20Videobolt.net.mp4"
+  },
+  {
+    "term": "Con trai",
+    "description": "Tay phải khép, khum lại, đặt trước bụng, lòng bàn tay hướng vào trong, đặt chạm các đầu ngón tay vào bụng, đưa tay xuống dưới và lắc nhẹ cổ tay ra ngoài.",
+    "lesson": "Bài 5 - Gia đình",
+    "type": "Từ vựng",
+    "image": "https://ffqmgqkauhwfxinatqol.supabase.co/storage/v1/object/sign/Sign_images/Boy.png?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV8zMTMzZjYwYi1mMjdiLTQ3M2UtODgzMS1mNTQxNzhmNTk5YjAiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJTaWduX2ltYWdlcy9Cb3kucG5nIiwiaWF0IjoxNzYxNjU3NTc2LCJleHAiOjE3NjY4NDE1NzZ9.fikNLeX5LdEZVl7Acm2hKNNuUPR0Fsr-hE-bg7sIK80",
+    "videos": "https://gajsffqnyujwyllfcmny.supabase.co/storage/v1/object/public/sign_videos/sign_087%20-%20LOOP%20-%20Videobolt.net.mp4"
+  },
+  {
+    "term": "Con gái",
+    "description": "Tay phải khép, khum lại, đặt trước bụng, lòng bàn tay hướng vào trong, đặt chạm các đầu ngón tay vào bụng, đưa tay xuống dưới và lắc nhẹ cổ tay ra ngoài.",
+    "lesson": "Bài 5 - Gia đình",
+    "type": "Từ vựng",
+    "image": "https://ffqmgqkauhwfxinatqol.supabase.co/storage/v1/object/sign/Sign_images/Girl.png?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV8zMTMzZjYwYi1mMjdiLTQ3M2UtODgzMS1mNTQxNzhmNTk5YjAiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJTaWduX2ltYWdlcy9HaXJsLnBuZyIsImlhdCI6MTc2MTY1NzU5NiwiZXhwIjoxNzY2ODQxNTk2fQ.Dm6jSs2AVyqF_rneCLhGz36tlv6bTJZoSuaPcXUfJtE",
+    "videos": "https://gajsffqnyujwyllfcmny.supabase.co/storage/v1/object/public/sign_videos/sign_088%20-%20LOOP%20-%20Videobolt.net.mp4"
+  },
+  {
+    "term": "Vợ",
+    "description": "Tay phải nắm, ngón cái và ngón trỏ mở ra, nắm nhẹ vào tai (vị trí đeo khuyên tai).",
+    "lesson": "Bài 5 - Gia đình",
+    "type": "Từ vựng",
+    "image": "https://ffqmgqkauhwfxinatqol.supabase.co/storage/v1/object/sign/Sign_images/Wife.png?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV8zMTMzZjYwYi1mMjdiLTQ3M2UtODgzMS1mNTQxNzhmNTk5YjAiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJTaWduX2ltYWdlcy9XaWZlLnBuZyIsImlhdCI6MTc2MTY1NzUzNywiZXhwIjoxNzY2ODQxNTM3fQ.dbEwuU3tZ_ge_UdErB7gksL40uCknBgSIOkXfi3vohA",
+    "videos": "https://gajsffqnyujwyllfcmny.supabase.co/storage/v1/object/public/sign_videos/sign_089%20-%20LOOP%20-%20Videobolt.net.mp4"
+  },
+  {
+    "term": "Chồng",
+    "description": "Tay phải khép, hơi khum lại, lòng bàn tay hướng vào trong, đặt chạm các đầu ngón tay vào cầm.",
+    "lesson": "Bài 5 - Gia đình",
+    "type": "Từ vựng",
+    "image": "https://ffqmgqkauhwfxinatqol.supabase.co/storage/v1/object/sign/Sign_images/Husband.png?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV8zMTMzZjYwYi1mMjdiLTQ3M2UtODgzMS1mNTQxNzhmNTk5YjAiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJTaWduX2ltYWdlcy9IdXNiYW5kLnBuZyIsImlhdCI6MTc2MTY1NzU1NiwiZXhwIjoxNzY2ODQxNTU2fQ.udmhwCcVcLUMuKLKGvYFSqSE0P18PVfxVVLrUmv4Sfo",
+    "videos": "https://gajsffqnyujwyllfcmny.supabase.co/storage/v1/object/public/sign_videos/sign_090%20-%20LOOP%20-%20Videobolt.net.mp4"
+  },
+  {
+    "term": "Anh trai",
+    "description": "Tay phải giống chữ cái ngón tay \"N\", lòng bàn tay hướng vào trong, đầu ngón tay hướng lên trên, đặt chạm đầu ngón tay vào cảm.",
+    "lesson": "Bài 5 - Gia đình",
+    "type": "Từ vựng",
+    "image": "https://ffqmgqkauhwfxinatqol.supabase.co/storage/v1/object/sign/Sign_images/ElderBrother.png?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV8zMTMzZjYwYi1mMjdiLTQ3M2UtODgzMS1mNTQxNzhmNTk5YjAiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJTaWduX2ltYWdlcy9FbGRlckJyb3RoZXIucG5nIiwiaWF0IjoxNzYxNjU3NDYyLCJleHAiOjE3NjY4NDE0NjJ9.RtA_VIva9NfnW-yipru60kTvQEefUcNNZLuRx-JnOPo",
+    "videos": "https://gajsffqnyujwyllfcmny.supabase.co/storage/v1/object/public/sign_videos/sign_091%20-%20LOOP%20-%20Videobolt.net.mp4"
+  },
+  {
+    "term": "Chị gái",
+    "description": "Tay phải nắm, ngón cái và ngón trỏ mở ra, năm nhẹ vào tai (vị trí đeo khuyên tai).",
+    "lesson": "Bài 5 - Gia đình",
+    "type": "Từ vựng",
+    "image": "https://ffqmgqkauhwfxinatqol.supabase.co/storage/v1/object/sign/Sign_images/ElderSister.png?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV8zMTMzZjYwYi1mMjdiLTQ3M2UtODgzMS1mNTQxNzhmNTk5YjAiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJTaWduX2ltYWdlcy9FbGRlclNpc3Rlci5wbmciLCJpYXQiOjE3NjE2NTc0NzMsImV4cCI6MTc2Njg0MTQ3M30.1DVfkwgjUk3VKIfn_PwzsuBltGsT0L-Vvk29rTjR5mU",
+    "videos": "https://gajsffqnyujwyllfcmny.supabase.co/storage/v1/object/public/sign_videos/sign_092%20-%20LOOP%20-%20Videobolt.net.mp4"
+  },
+  {
+    "term": "Em út",
+    "description": "Tay phải khép, lòng bàn tay úp, đầu ngón tay hướng sang trái, đặt áp vào giữa ngực,",
+    "lesson": "Bài 5 - Gia đình",
+    "type": "Từ vựng",
+    "image": "https://ffqmgqkauhwfxinatqol.supabase.co/storage/v1/object/sign/Sign_images/YoungestSibling.png?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV8zMTMzZjYwYi1mMjdiLTQ3M2UtODgzMS1mNTQxNzhmNTk5YjAiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJTaWduX2ltYWdlcy9Zb3VuZ2VzdFNpYmxpbmcucG5nIiwiaWF0IjoxNzYxNjU3NDQ0LCJleHAiOjE3NjY4NDE0NDR9.DIvicoph8jJKlRiF_7VAMsOHRUFGLbyCbJa1U2Qc4_A",
+    "videos": "https://gajsffqnyujwyllfcmny.supabase.co/storage/v1/object/public/sign_videos/sign_093%20-%20LOOP%20-%20Videobolt.net.mp4"
+  },
+  {
+    "term": "Yêu",
+    "description": "tay phải ngón út và ngón cái mở, các ngón còn lại nắm đặt trước ngực, sau đó các ngón nắm lại, chỉ riêng ngón trỏ mở, đặt ngón trỏ chạm vào nhân trung xoay nhẹ ra ngoài.",
+    "lesson": "Bài 5 - Gia đình",
+    "type": "Từ vựng",
+    "image": "https://ffqmgqkauhwfxinatqol.supabase.co/storage/v1/object/sign/Sign_images/Love.png?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV8zMTMzZjYwYi1mMjdiLTQ3M2UtODgzMS1mNTQxNzhmNTk5YjAiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJTaWduX2ltYWdlcy9Mb3ZlLnBuZyIsImlhdCI6MTc2MTcwMjczMiwiZXhwIjoxNzY2ODg2NzMyfQ.Oj7ZZvRYghtFTEmwMEYRR050Jj1Uvb_GlrFdZYf-0Q4",
+    "videos": "https://gajsffqnyujwyllfcmny.supabase.co/storage/v1/object/public/sign_videos/sign_094%20-%20LOOP%20-%20Videobolt.net.mp4"
+  },
+  {
+    "term": "Cô giáo",
+    "description": "Tay phải nắm, ngón cái và ngón trỏ mở ra, nắm nhẹ vào tai (vị trí đeo khuyên tai).",
+    "lesson": "Bài 6 - Nghề nghiệp",
+    "type": "Từ vựng",
+    "image": "https://ffqmgqkauhwfxinatqol.supabase.co/storage/v1/object/sign/Sign_images/Teacher.png?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV8zMTMzZjYwYi1mMjdiLTQ3M2UtODgzMS1mNTQxNzhmNTk5YjAiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJTaWduX2ltYWdlcy9UZWFjaGVyLnBuZyIsImlhdCI6MTc2MTcwMTc2MSwiZXhwIjoxNzY2ODg1NzYxfQ.g0BvkqV5VDoangj2kAQNGj1s7pICdULMnBF98iU64zY",
+    "videos": "https://gajsffqnyujwyllfcmny.supabase.co/storage/v1/object/public/sign_videos/sign_095%20-%20LOOP%20-%20Videobolt.net.mp4"
+  },
+  {
+    "term": "Công nhân",
+    "description": "Tay phải nắm, ngón cái và ngón trỏ tay phải cong lại giống chữ cái ngón tay \"C\", lòng bàn tay hướng vào trong, đặt chạm vào ngực trái, đưa nhẹ tay sang phải.",
+    "lesson": "Bài 6 - Nghề nghiệp",
+    "type": "Từ vựng",
+    "image": "https://ffqmgqkauhwfxinatqol.supabase.co/storage/v1/object/sign/Sign_images/Teacher.png?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV8zMTMzZjYwYi1mMjdiLTQ3M2UtODgzMS1mNTQxNzhmNTk5YjAiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJTaWduX2ltYWdlcy9UZWFjaGVyLnBuZyIsImlhdCI6MTc2MTcwMTc2MSwiZXhwIjoxNzY2ODg1NzYxfQ.g0BvkqV5VDoangj2kAQNGj1s7pICdULMnBF98iU64zY",
+    "videos": "https://gajsffqnyujwyllfcmny.supabase.co/storage/v1/object/public/sign_videos/sign_096%20-%20LOOP%20-%20Videobolt.net.mp4"
+  },
+  {
+    "term": "Nông dân",
+    "description": "Tay phải giống chữ cái ngón tay \"S\", lòng bàn tay hướng vào trong, đặt gần ngực trái, đưa tay sang ngực phải.",
+    "lesson": "Bài 6 - Nghề nghiệp",
+    "type": "Từ vựng",
+    "image": "https://ffqmgqkauhwfxinatqol.supabase.co/storage/v1/object/sign/Sign_images/Farmer.png?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV8zMTMzZjYwYi1mMjdiLTQ3M2UtODgzMS1mNTQxNzhmNTk5YjAiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJTaWduX2ltYWdlcy9GYXJtZXIucG5nIiwiaWF0IjoxNzYxNzAxODAwLCJleHAiOjE3NjY4ODU4MDB9.ma82OlZHu9Kkwy5xl_DH527mn5dhix9upNGfs18rDe4",
+    "videos": "https://gajsffqnyujwyllfcmny.supabase.co/storage/v1/object/public/sign_videos/sign_097%20-%20LOOP%20-%20Videobolt.net.mp4"
+  },
+  {
+    "term": "Bác sĩ",
+    "description": "Tay phải giống số tự nhiên \"1\", lòng bàn tay úp, đầu ngón tay hướng sang trái, đặt sát giữa trán, đưa tay theo hình dấu \"+\".",
+    "lesson": "Bài 6 - Nghề nghiệp",
+    "type": "Từ vựng",
+    "image": "https://ffqmgqkauhwfxinatqol.supabase.co/storage/v1/object/sign/Sign_images/Doctor.png?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV8zMTMzZjYwYi1mMjdiLTQ3M2UtODgzMS1mNTQxNzhmNTk5YjAiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJTaWduX2ltYWdlcy9Eb2N0b3IucG5nIiwiaWF0IjoxNzYxNzAxODIxLCJleHAiOjE3NjY4ODU4MjF9.Llyftv7_ccWG38lYEYsu3naWtcE0cFlklF2QPa_x4M4",
+    "videos": "https://gajsffqnyujwyllfcmny.supabase.co/storage/v1/object/public/sign_videos/sign_098%20-%20LOOP%20-%20Videobolt.net.mp4"
+  },
+  {
+    "term": "Y tá",
+    "description": "Tay phải giống số tự nhiên \"1\", lòng bàn tay hướng vào trong, đầu ngón tay hướng vào trong, đưa chạm đầu ngón trỏ vào bắp tay trái.",
+    "lesson": "Bài 6 - Nghề nghiệp",
+    "type": "Từ vựng",
+    "image": "https://ffqmgqkauhwfxinatqol.supabase.co/storage/v1/object/sign/Sign_images/Nurse.png?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV8zMTMzZjYwYi1mMjdiLTQ3M2UtODgzMS1mNTQxNzhmNTk5YjAiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJTaWduX2ltYWdlcy9OdXJzZS5wbmciLCJpYXQiOjE3NjE3MDE4NDAsImV4cCI6MTc2Njg4NTg0MH0.l3SyY6cWdNvdP--5tGtiGxtktY2lqYGZPzHBxx98UX0",
+    "videos": "https://gajsffqnyujwyllfcmny.supabase.co/storage/v1/object/public/sign_videos/sign_099%20-%20LOOP%20-%20Videobolt.net.mp4"
+  },
+  {
+    "term": "Công an",
+    "description": "Tay phải giống chữ cái ngón tay \"C\", lòng bàn tay hướng sang trái, đặt chạm vào giữa trán, sau đó thay đổi tay giống chữ cái ngón tay \"A\".",
+    "lesson": "Bài 6 - Nghề nghiệp",
+    "type": "Từ vựng",
+    "image": "https://ffqmgqkauhwfxinatqol.supabase.co/storage/v1/object/sign/Sign_images/Police.png?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV8zMTMzZjYwYi1mMjdiLTQ3M2UtODgzMS1mNTQxNzhmNTk5YjAiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJTaWduX2ltYWdlcy9Qb2xpY2UucG5nIiwiaWF0IjoxNzYxNzAxODYzLCJleHAiOjE3NjY4ODU4NjN9.pV27CJxEJR0ly-vWPz3zoSJDBYevy5ZCvjCwNPXcyvc",
+    "videos": "https://gajsffqnyujwyllfcmny.supabase.co/storage/v1/object/public/sign_videos/sign_100%20-%20LOOP%20-%20Videobolt.net.mp4"
+  },
+  {
+    "term": "Bộ đội",
+    "description": "Tay phải giống chữ cái ngón tay “U”, lòng bàn tay hướng sang trái, đặt chạm vào trán bên phải, đưa tay xuống chạm vào vai phải.",
+    "lesson": "Bài 6 - Nghề nghiệp",
+    "type": "Từ vựng",
+    "image": "https://ffqmgqkauhwfxinatqol.supabase.co/storage/v1/object/sign/Sign_images/Soldier.png?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV8zMTMzZjYwYi1mMjdiLTQ3M2UtODgzMS1mNTQxNzhmNTk5YjAiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJTaWduX2ltYWdlcy9Tb2xkaWVyLnBuZyIsImlhdCI6MTc2MTcwMTg5MiwiZXhwIjoxNzY2ODg1ODkyfQ.hbFg0mfm08UkAM3LFfpUULlsOKPIg7n1u-cEVl_0Qok",
+    "videos": "https://gajsffqnyujwyllfcmny.supabase.co/storage/v1/object/public/sign_videos/sign_101%20-%20LOOP%20-%20Videobolt.net.mp4"
+  }
+]
