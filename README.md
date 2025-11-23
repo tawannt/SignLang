@@ -1,3 +1,4 @@
+
 # 🔑 Environment Variables Guide
 
 This project requires the following credentials.  
@@ -29,7 +30,7 @@ Used to access the Notion API.
 
 ---
 
-## 3. GOOGLE_OAUTH_CLIENT_ID & GOOGLE_OAUTH_CLIENT_SECRET
+## 🧩 3. GOOGLE_OAUTH_CLIENT_ID & GOOGLE_OAUTH_CLIENT_SECRET
 Used for OAuth authentication (Google login, Drive, Gmail, etc.).
 
 **How to create OAuth credentials:**
@@ -39,6 +40,47 @@ Used for OAuth authentication (Google login, Drive, Gmail, etc.).
 4. Select **Web Application** (or Desktop, depending on your project).
 5. Enter **Authorized redirect URIs**, e.g.:
 
+http://localhost:8501
+http://localhost:8501/authorize
+
+6. Click **Create** → you will get:
+- **Client ID**
+- **Client Secret**
+
+Paste these into your `.env`.
+---
+
+📊 4. LANGFUSE_SECRET_KEY, LANGFUSE_PUBLIC_KEY, LANGFUSE_BASE_URL
+
+Used for tracking LLM observability with Langfuse.
+
+How to get them:
+1. Go to Langfuse Cloud￼.
+2. Select your project.
+3. Go to Project Settings → API Keys.
+4. Create:
+    * Public Key
+    * Secret Key
+5. Base URL is usually:
+
+https://cloud.langfuse.com
+
+---
+
+📄 Example .env.example
+
+GOOGLE_API_KEY=
+
+NOTION_TOKEN=
+
+GOOGLE_OAUTH_CLIENT_ID=
+GOOGLE_OAUTH_CLIENT_SECRET=
+GOOGLE_OAUTH_TOKEN_PATH='./token.json'
+
+LANGFUSE_SECRET_KEY=
+LANGFUSE_PUBLIC_KEY=
+LANGFUSE_BASE_URL=https://cloud.langfuse.com
+---
 
 # Installation external tool
 ## Installl MCP - Google
