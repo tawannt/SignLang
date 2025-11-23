@@ -1,3 +1,45 @@
+# 🔑 Environment Variables Guide
+
+This project requires the following credentials.  
+Create a `.env` or `.env.example` file and fill in the values as instructed below.
+
+---
+
+## 🚀 1. GOOGLE_API_KEY
+Used for Google AI APIs (e.g., Gemini, Vertex AI).
+
+**How to get it:**
+1. Go to [Google AI Studio](https://aistudio.google.com/).
+2. Log in with your Google account.
+3. Go to the **API Keys** tab.
+4. Click **Create API Key**.
+5. Copy the key into your `.env` file.
+
+---
+
+## 📝 2. NOTION_TOKEN
+Used to access the Notion API.
+
+**How to get it:**
+1. Go to [Notion Integrations](https://www.notion.so/my-integrations).
+2. Click **+ New Integration**.
+3. Name your integration → **Submit**.
+4. Copy the **Internal Integration Token** from the integration page.
+5. Paste it into your `.env`.
+
+---
+
+## 3. GOOGLE_OAUTH_CLIENT_ID & GOOGLE_OAUTH_CLIENT_SECRET
+Used for OAuth authentication (Google login, Drive, Gmail, etc.).
+
+**How to create OAuth credentials:**
+1. Go to [Google Cloud Console](https://console.cloud.google.com/).
+2. Navigate to **APIs & Services → Credentials**.
+3. Click **Create Credentials → OAuth client ID**.
+4. Select **Web Application** (or Desktop, depending on your project).
+5. Enter **Authorized redirect URIs**, e.g.:
+
+
 # Installation external tool
 ## Installl MCP - Google
 ### Install `bun`
