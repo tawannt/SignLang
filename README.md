@@ -68,21 +68,6 @@ https://cloud.langfuse.com
 
 ---
 
-📄 Example .env.example
-
-GOOGLE_API_KEY=
-
-NOTION_TOKEN=
-
-GOOGLE_OAUTH_CLIENT_ID=
-GOOGLE_OAUTH_CLIENT_SECRET=
-GOOGLE_OAUTH_TOKEN_PATH='./token.json'
-
-LANGFUSE_SECRET_KEY=
-LANGFUSE_PUBLIC_KEY=
-LANGFUSE_BASE_URL=https://cloud.langfuse.com
----
-
 # Installation external tool
 ## Installl MCP - Google
 ### Install `bun`
