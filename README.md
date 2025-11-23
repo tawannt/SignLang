@@ -40,8 +40,9 @@ Used for OAuth authentication (Google login, Drive, Gmail, etc.).
 4. Select **Web Application** (or Desktop, depending on your project).
 5. Enter **Authorized redirect URIs**, e.g.:
 
-http://localhost:8501
-http://localhost:8501/authorize
+http://localhost:3001
+
+http://localhost:3002
 
 6. Click **Create** → you will get:
 - **Client ID**
