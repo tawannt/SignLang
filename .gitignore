@@ -4,6 +4,7 @@
 
 # Bỏ qua file môi trường
 .env
+.env.example
 
 # Bỏ qua cache Python
 __pycache__/
