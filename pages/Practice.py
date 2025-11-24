@@ -1,17 +1,14 @@
 import streamlit as st
 import json
 from typing import List, Dict
+from configs.page_config import setup_page
 
 SIGN_TERMS_PATH = "./data/sign_terms_updated_video.json"
 LEARNING_PATH_PATH = "./data/learning_path.json"
 LEARNING_SCHEDULE_PATH = "./data/learning_schedule.json"
 
 # --- CẤU HÌNH TRANG ---
-def setup_page():
-    st.set_page_config(
-        page_title="Sign Language Dictionary",
-        layout="wide",
-    )
+setup_page()
 
 def load_file_json(path: str) -> List[Dict]:
     with open(path, "r", encoding="utf-8") as f:

@@ -5,11 +5,43 @@ import mediapipe as mp
 import numpy as np
 import torch
 from sstcn_attention_model import SSTCN_Attention
-from utils.sign_dict import SIGN_DICT_NO_ACCENT
+from utils.sign_dict import SIGN_DICT
+from configs.page_config import setup_page
+from utils.image_util import load_image_base64
+from utils.motivations import get_motivation
 
 # --- Config page ---
-st.set_page_config(page_title="Sign Language Recognition", layout="wide")
-st.title("Nhận diện ngôn ngữ ký hiệu (Real-time)")
+setup_page()
+
+logo_image = load_image_base64("asset/logo.png")
+
+st.markdown(f"""
+<link href="https://fonts.googleapis.com/css2?family=Alice&display=swap" rel="stylesheet">
+<style>
+.fixed-header {{
+    position: fixed;
+    top: 25px;
+    width: calc(100% - 30px);
+    background-color: white;
+    z-index: 9999;
+    display: flex;
+    align-items: center;
+}}
+</style>
+
+<div class="fixed-header">
+    <img src="data:image/png;base64,{logo_image}" width="100" style="margin-right:15px; margin-top:15px; margin-bottom:0px;" />
+    <div>
+        <h1 style="
+            font-size: 40px;
+            margin-bottom:0px;
+        ">Nhận diện với VSignChat</h1>
+    </div>
+</div>
+
+<!-- Thêm khoảng trắng để nội dung không bị header che khuất -->
+<div style="height:35px;"></div>
+""", unsafe_allow_html=True)
 
 # --- Load mô hình ---
 NUM_CLASSES = 102
@@ -24,7 +56,7 @@ def load_model():
     return model
 
 model = load_model()
-sign_dict = SIGN_DICT_NO_ACCENT
+sign_dict = SIGN_DICT
 
 # --- MediaPipe setup ---
 mp_holistic = mp.solutions.holistic
@@ -55,7 +87,7 @@ def extract_keypoints(results):
     return np.concatenate([pose, left, right]).flatten()
 
 
-# CSS để căn giữa FRAME_WINDOW và đặt nút Stop trong góc
+# CSS để căn giữa FRAME_WINDOW
 st.markdown("""
     <style>
     .video-container {
@@ -64,10 +96,11 @@ st.markdown("""
         justify-content: center;
         align-items: center;
         height: 0vh;
+        margin-top: 0px;
     }
     </style>
 """, unsafe_allow_html=True)
-col1, col2, col3 = st.columns([3, 6, 1])
+col1, col2 = st.columns([3, 6])
 with col1:
     # Nút Start
     start_button = st.button("📷 Bắt đầu nhận diện")
@@ -137,3 +170,23 @@ if start_button:
 
     cap.release()
     st.success("📷 Camera đã tắt.")
+
+# --- SIDEBAR ---
+with st.sidebar:
+    quote = get_motivation()
+    st.sidebar.markdown(
+        f"""
+        <div style="
+            padding: 15px;
+            border-radius: 10px;
+            background-color: #f1f3ff;
+            border-left: 5px solid #4851ba;
+            font-size: 16px;
+            ">
+            <b>💡 Động lực hôm nay</b><br>
+            {quote}
+        </div>
+        <div style="height:20px;"></div>
+        """,
+        unsafe_allow_html=True
+    )

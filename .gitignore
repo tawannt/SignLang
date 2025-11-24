@@ -1,0 +1,18 @@
+# Bỏ qua môi trường ảo
+.venv/
+.venv2/
+
+# Bỏ qua file môi trường
+.env
+
+# Bỏ qua cache Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Thêm các folder tạm khác nếu cần
+*.egg-info/
+dist/
+build/
+google-mcp/
