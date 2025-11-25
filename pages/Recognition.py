@@ -65,7 +65,7 @@ holistic = mp_holistic.Holistic(min_detection_confidence=0.5,
 
 SEQ_LEN = 30
 NUM_JOINTS = 75
-threshold = 0.8
+threshold = 0.7
 
 # --- Hàm trích xuất keypoints ---
 def extract_keypoints(results):
@@ -109,6 +109,7 @@ with col1:
     # Các phần còn lại
     sequence_count_text = st.empty()
     pred_text = st.empty()
+    pred_rate = st.empty()
 
 with col2:
     # Vùng chứa FRAME_WINDOW
@@ -121,6 +122,7 @@ if start_button:
     cap = cv2.VideoCapture(0)
     sequence = []
     pred = 102
+    pred_rate_value = 0.0
     frame_skip = 2
     frame_count = 0
 
@@ -155,14 +157,17 @@ if start_button:
                 max_prob, pred_idx = torch.max(probs, dim=1)
                 if max_prob.item() >= threshold:
                     pred = pred_idx.item()
+                    pred_rate_value = max_prob.item()
                 else:
                     pred = 102
+                    pred_rate_value = 0.0
             sequence = []
 
         # --- Hiển thị kết quả ---
         FRAME_WINDOW.image(frame, channels="BGR")
 
         pred_text.markdown(f"### Dự đoán: **{sign_dict[pred]}**")
+        pred_rate.markdown(f"### Xác suất: **{pred_rate_value:.2f}**")
 
         # Nếu người dùng nhấn Dừng thì thoát
         if stop_button:
