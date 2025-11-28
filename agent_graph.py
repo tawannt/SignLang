@@ -118,43 +118,43 @@ def start_practice_tool(sign_name: Optional[str] = None) -> str:
     return json.dumps({"action": "START_PRACTICE", "sign": sign_name})
 
 
-@tool
-def simple_add_text_to_page(page_id: str, text_content: str) -> str:
-    """
-    Dùng tool này để viết nội dung vào trang Notion.
-    Chỉ cần cung cấp ID trang và nội dung văn bản. Tool sẽ tự động định dạng.
-    KHÔNG dùng tool này để tìm kiếm.
-    """
-    if not notion_client:
-        return "Lỗi: Server chưa cấu hình NOTION_TOKEN."
-
-    try:
-        # Đây là nơi Code xử lý sự phức tạp thay cho LLM (Best Practice)
-        # Chúng ta đóng gói text vào cấu trúc 'blocks' chuẩn của Notion
-        blocks = [
-            {
-                "object": "block",
-                "type": "paragraph",
-                "paragraph": {
-                    "rich_text": [
-                        {
-                            "type": "text",
-                            "text": {
-                                "content": text_content
-                            }
-                        }
-                    ]
-                }
-            }
-        ]
-        
-        # Gọi API trực tiếp
-        response = notion_client.blocks.children.append(block_id=page_id, children=blocks)
-        return f"Đã thêm thành công nội dung vào trang {page_id}. (Block ID: {response['results'][0]['id']})"
+#@tool
+#def simple_add_text_to_page(page_id: str, text_content: str) -> str:
+#    """
+#    Dùng tool này để viết nội dung vào trang Notion.
+#    Chỉ cần cung cấp ID trang và nội dung văn bản. Tool sẽ tự động định dạng.
+#    KHÔNG dùng tool này để tìm kiếm.
+#    """
+#    if not notion_client:
+#        return "Lỗi: Server chưa cấu hình NOTION_TOKEN."
+#
+#    try:
+#        # Đây là nơi Code xử lý sự phức tạp thay cho LLM (Best Practice)
+#        # Chúng ta đóng gói text vào cấu trúc 'blocks' chuẩn của Notion
+#        blocks = [
+#            {
+#                "object": "block",
+#                "type": "paragraph",
+#                "paragraph": {
+#                    "rich_text": [
+#                        {
+#                            "type": "text",
+#                            "text": {
+#                                "content": text_content
+#                            }
+#                        }
+#                    ]
+#                }
+#            }
+#        ]
+#        
+#        # Gọi API trực tiếp
+#        response = notion_client.blocks.children.append(block_id=page_id, children=blocks)
+#        return f"Đã thêm thành công nội dung vào trang {page_id}. (Block ID: {response['results'][0]['id']})"
     
-    except Exception as e:
-        logger.error(f"Lỗi Notion Write: {e}")
-        return f"Gặp lỗi khi ghi vào Notion: {str(e)}"
+#    except Exception as e:
+#        logger.error(f"Lỗi Notion Write: {e}")
+#        return f"Gặp lỗi khi ghi vào Notion: {str(e)}"
 
 
 # ==========================================
