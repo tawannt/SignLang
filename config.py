@@ -9,21 +9,26 @@ BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 CHROMA_PATH = os.path.join(BASE_DIR, "vectorstore", "chroma") 
 DOCS_PATH = os.path.join(BASE_DIR, "data", "docs_chroma.pkl")
 MODEL_NAME = "gemini-2.5-flash"
+MODEL_NAME_2 = "gemini-2.5-flash-lite"
+
+# --- MODEL PHỤ (OpenRouter - Rewrite Query & Judge) ---
+# Dùng model free/cheap trên OpenRouter để tiết kiệm và nhanh
+OPENROUTER_API_KEY = os.getenv("OPENROUTER_API_KEY") # Nhớ thêm vào .env
+OPENROUTER_BASE_URL = "https://openrouter.ai/api/v1"
+# OPENROUTER_MODEL_NAME = "google/gemini-2.0-flash-exp:free"
+OPENROUTER_MODEL_NAME = "meta-llama/llama-3.3-70b-instruct:free"
+
+
 EMBEDDING_MODEL_NAME = "bkai-foundation-models/vietnamese-bi-encoder"
 RERANK_MODEL_NAME = "BAAI/bge-reranker-base"
 
 RERANK_MODEL = HuggingFaceCrossEncoder(model_name=RERANK_MODEL_NAME)
-COMPRESSOR = CrossEncoderReranker(model=RERANK_MODEL, top_n=3)
+COMPRESSOR = CrossEncoderReranker(model=RERANK_MODEL, top_n=5)
 
 # Model choices
 AVAILABLE_MODELS = [
     "gemini-2.5-flash-exp",
 ]
-
-SIGN_TERMS_PATH = "./data/sign_terms_updated_video.json"
-LEARNING_PATH_PATH = "./data/learning_path.json"
-LEARNING_SCHEDULE_PATH = "./data/learning_schedule.json"
-
 OPTIMIZED_QUERY_PROMPT = """
 Bạn là Query Reformulator cho hệ thống RAG về Ngôn ngữ ký hiệu.
 
