@@ -14,7 +14,8 @@ from langchain_core.documents import Document
 from langchain_core.tools import tool, BaseTool
 from langgraph.graph import StateGraph, END, START
 from langgraph.prebuilt import ToolNode
-from langgraph.checkpoint.memory import MemorySaver
+# from langgraph.checkpoint.memory import MemorySaver
+from langgraph.graph.message import add_messages
 
 from langchain_google_genai import ChatGoogleGenerativeAI, HarmCategory, HarmBlockThreshold
 from langchain_openai import ChatOpenAI
@@ -204,7 +205,7 @@ else:
     logger.warning(">>> KHÔNG TÌM THẤY 'OPENROUTER_API_KEY'. Judge bị vô hiệu hóa.")
 
 class AgentState(TypedDict):
-    messages: Annotated[list[AnyMessage], operator.add]
+    messages: Annotated[list[AnyMessage], add_messages]
     intent: Optional[str]
     summary: str
 
@@ -252,6 +253,11 @@ def llm_call(state: AgentState):
 
     messages = state["messages"]
     summary = state.get("summary", "")
+
+    valid_messages = []
+    for m in messages:
+        if isinstance(m, (HumanMessage, AIMessage, SystemMessage, ToolMessage)):
+            valid_messages.append(m)
     
     # 2. Tạo System Prompt chứa Summary (Nếu có)
     summary_context = f"\n\n### TÓM TẮT KÝ ỨC DÀI HẠN:\n{summary}" if summary else ""
@@ -331,7 +337,7 @@ def llm_call(state: AgentState):
     #         continue
     #     messages_with_prompt.append(msg)
     # messages_with_prompt = [HumanMessage(content=DYNAMIC_SYSTEM_PROMPT)] + trimmed_history
-    messages_with_prompt = [SystemMessage(content=DYNAMIC_SYSTEM_PROMPT)] + messages
+    messages_with_prompt = [SystemMessage(content=DYNAMIC_SYSTEM_PROMPT)] + valid_messages
 
     response = llm_with_tools.invoke(messages_with_prompt)
     return {"messages": [response]}
