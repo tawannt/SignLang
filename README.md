@@ -105,7 +105,7 @@ pip install -r requirements1.txt
 ```
 ## Running
 ```bash
-python agent_backend.py
+python app.py
 ```
 ---
 
