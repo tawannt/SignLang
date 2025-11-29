@@ -206,7 +206,18 @@ async def chat_endpoint(request: ChatRequest, background_tasks: BackgroundTasks)
         # Thay vì dùng slicing dựa trên độ dài cũ (dễ lỗi nếu tin nhắn bị xóa),
         # ta luôn lấy tối đa 10 tin nhắn cuối cùng để quét tìm Tool Output vừa sinh ra.
         
-        messages_to_scan = all_messages[-10:] 
+        # [FIX] Tìm vị trí tin nhắn Human cuối cùng để xác định phạm vi lượt hiện tại
+        last_human_index = -1
+        for i in range(len(all_messages) - 1, -1, -1):
+            if isinstance(all_messages[i], HumanMessage):
+                last_human_index = i
+                break
+            
+        # Chỉ quét các tin nhắn sinh ra SAU câu hỏi cuối cùng của user
+        if last_human_index != -1:
+            messages_to_scan = all_messages[last_human_index:]
+        else:
+            messages_to_scan = all_messages[-10:] # Fallback
         
         # ==================================================================================
         # 1. TRÍCH XUẤT DỮ LIỆU TỪ TOOL OUTPUT (RAG & PRACTICE)
@@ -237,7 +248,7 @@ async def chat_endpoint(request: ChatRequest, background_tasks: BackgroundTasks)
         # ==================================================================================
         # 2. XỬ LÝ TEXT & LÀM SẠCH ARTIFACTS CỦA GEMINI
         # ==================================================================================
-        
+
         # last_msg = all_messages[-1]
         # response_content = last_msg.content if isinstance(last_msg, AIMessage) else ""
         response_content = ""
@@ -286,31 +297,31 @@ async def chat_endpoint(request: ChatRequest, background_tasks: BackgroundTasks)
                     break
         
 
-        # Logic làm sạch: Gemini đôi khi trả về List[dict] hoặc String dạng List
-        if isinstance(response_content, list):
-            text_parts = []
-            for item in response_content:
-                if isinstance(item, dict) and "text" in item:
-                    text_parts.append(item["text"])
-                elif isinstance(item, str):
-                    text_parts.append(item)
-            if text_parts:
-                response_content = "\n".join(text_parts)
+        # # Logic làm sạch: Gemini đôi khi trả về List[dict] hoặc String dạng List
+        # if isinstance(response_content, list):
+        #     text_parts = []
+        #     for item in response_content:
+        #         if isinstance(item, dict) and "text" in item:
+        #             text_parts.append(item["text"])
+        #         elif isinstance(item, str):
+        #             text_parts.append(item)
+        #     if text_parts:
+        #         response_content = "\n".join(text_parts)
 
-        elif isinstance(response_content, str) and response_content.strip().startswith("["):
-            try:
-                parsed = ast.literal_eval(response_content)
-                if isinstance(parsed, list):
-                    text_parts = []
-                    for item in parsed:
-                        if isinstance(item, dict) and "text" in item:
-                            text_parts.append(item["text"])
-                        elif isinstance(item, str):
-                            text_parts.append(item)
-                    if text_parts:
-                        response_content = "\n".join(text_parts)
-            except Exception:
-                pass # Parse lỗi thì giữ nguyên string gốc
+        # elif isinstance(response_content, str) and response_content.strip().startswith("["):
+        #     try:
+        #         parsed = ast.literal_eval(response_content)
+        #         if isinstance(parsed, list):
+        #             text_parts = []
+        #             for item in parsed:
+        #                 if isinstance(item, dict) and "text" in item:
+        #                     text_parts.append(item["text"])
+        #                 elif isinstance(item, str):
+        #                     text_parts.append(item)
+        #             if text_parts:
+        #                 response_content = "\n".join(text_parts)
+        #     except Exception:
+        #         pass # Parse lỗi thì giữ nguyên string gốc
 
         # ==================================================================================
         # 3. [CORE LOGIC] REFERENCE ID PATTERN (XỬ LÝ METADATA)

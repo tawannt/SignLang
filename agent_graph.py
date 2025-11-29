@@ -23,7 +23,9 @@ from langfuse import Langfuse
 
 # Import nội bộ
 from rag_service import safe_get_url, rewrite_query
-from config import MODEL_NAME, OPTIMIZED_QUERY_PROMPT, MODEL_NAME_2, OPENROUTER_MODEL_NAME, OPENROUTER_BASE_URL
+from config import (MODEL_NAME, OPTIMIZED_QUERY_PROMPT, 
+                    CORE_INSTRUCTIONS, CLASSIFIER_SYS_PROMPT, MODEL_NAME_2, 
+                    OPENROUTER_MODEL_NAME, OPENROUTER_BASE_URL)
 
 from notion_client import Client as NotionClient
 
@@ -118,43 +120,43 @@ def start_practice_tool(sign_name: Optional[str] = None) -> str:
     return json.dumps({"action": "START_PRACTICE", "sign": sign_name})
 
 
-#@tool
-#def simple_add_text_to_page(page_id: str, text_content: str) -> str:
-#    """
-#    Dùng tool này để viết nội dung vào trang Notion.
-#    Chỉ cần cung cấp ID trang và nội dung văn bản. Tool sẽ tự động định dạng.
-#    KHÔNG dùng tool này để tìm kiếm.
-#    """
-#    if not notion_client:
-#        return "Lỗi: Server chưa cấu hình NOTION_TOKEN."
-#
-#    try:
-#        # Đây là nơi Code xử lý sự phức tạp thay cho LLM (Best Practice)
-#        # Chúng ta đóng gói text vào cấu trúc 'blocks' chuẩn của Notion
-#        blocks = [
-#            {
-#                "object": "block",
-#                "type": "paragraph",
-#                "paragraph": {
-#                    "rich_text": [
-#                        {
-#                            "type": "text",
-#                            "text": {
-#                                "content": text_content
-#                            }
-#                        }
-#                    ]
-#                }
-#            }
-#        ]
-#        
-#        # Gọi API trực tiếp
-#        response = notion_client.blocks.children.append(block_id=page_id, children=blocks)
-#        return f"Đã thêm thành công nội dung vào trang {page_id}. (Block ID: {response['results'][0]['id']})"
+@tool
+def simple_add_text_to_page(page_id: str, text_content: str) -> str:
+    """
+    Dùng tool này để viết nội dung vào trang Notion.
+    Chỉ cần cung cấp ID trang và nội dung văn bản. Tool sẽ tự động định dạng.
+    KHÔNG dùng tool này để tìm kiếm.
+    """
+    if not notion_client:
+        return "Lỗi: Server chưa cấu hình NOTION_TOKEN."
+
+    try:
+        # Đây là nơi Code xử lý sự phức tạp thay cho LLM (Best Practice)
+        # Chúng ta đóng gói text vào cấu trúc 'blocks' chuẩn của Notion
+        blocks = [
+            {
+                "object": "block",
+                "type": "paragraph",
+                "paragraph": {
+                    "rich_text": [
+                        {
+                            "type": "text",
+                            "text": {
+                                "content": text_content
+                            }
+                        }
+                    ]
+                }
+            }
+        ]
+        
+        # Gọi API trực tiếp
+        response = notion_client.blocks.children.append(block_id=page_id, children=blocks)
+        return f"Đã thêm thành công nội dung vào trang {page_id}. (Block ID: {response['results'][0]['id']})"
     
-#    except Exception as e:
-#        logger.error(f"Lỗi Notion Write: {e}")
-#        return f"Gặp lỗi khi ghi vào Notion: {str(e)}"
+    except Exception as e:
+        logger.error(f"Lỗi Notion Write: {e}")
+        return f"Gặp lỗi khi ghi vào Notion: {str(e)}"
 
 
 # ==========================================
@@ -174,7 +176,7 @@ llm = ChatGoogleGenerativeAI(
     safety_settings=safety_settings
 )
 
-llm_classification = ChatGoogleGenerativeAI(
+llm_lightweight = ChatGoogleGenerativeAI(
     model=MODEL_NAME_2,
     google_api_key=GOOGLE_API_KEY,
     temperature=0,
@@ -209,6 +211,17 @@ class AgentState(TypedDict):
     intent: Optional[str]
     summary: str
 
+
+class IntentDecision(BaseModel):
+    """Mô hình quyết định phân loại ý định người dùng."""
+    reason: str = Field(
+        description="Giải thích ngắn gọn lý do tại sao lại phân loại như vậy. Hãy suy nghĩ từng bước dựa trên ngữ cảnh."
+    )
+    is_related: bool = Field(
+        description="True nếu tin nhắn LIÊN QUAN đến tác vụ hợp lệ (Sign Language, Calendar, Greetings, Notion, Tiếp nối hội thoại). False nếu KHÔNG liên quan."
+    )
+
+structured_classifier = llm_lightweight.with_structured_output(IntentDecision)
 # ==========================================
 # 4. ĐỊNH NGHĨA NODE & GRAPH
 # ==========================================
@@ -220,31 +233,50 @@ def classify_user_intent(state: AgentState):
     logger.info("[Node] Đang phân loại ý định người dùng...")
     messages = state["messages"]
     last_message = messages[-1]
+    
+    # Lấy toàn bộ lịch sử trừ tin nhắn hiện tại
+    history = state["messages"][:-1]
+    
+    # --- FIX LOGIC LẤY CONTEXT ---
+    # Lọc ra tất cả tin nhắn của User trước
+    all_user_msgs = [m for m in history if isinstance(m, HumanMessage)]
+    # Chỉ lấy nội dung của 3 tin nhắn gần nhất
+    prev_user_contents = [m.content for m in all_user_msgs[-3:]]
+    
+    conversation_context = "\n".join(prev_user_contents) if prev_user_contents else "(Chưa có ngữ cảnh)"
+    # -----------------------------
 
-    # --- SỬA LẠI PROMPT NÀY ---
-    classification_prompt = (
-        "Bạn là một chuyên gia phân loại ý định người dùng.\n"
-        "Nhiệm vụ: Xác định xem tin nhắn người dùng có nên được Trợ lý ảo Ngôn ngữ ký hiệu xử lý hay không.\n\n"
-        "Quy tắc phân loại:\n"
-        "1. Trả lời 'YES' nếu:\n"
-        "   - Yêu cầu liên quan đến Ngôn ngữ ký hiệu (học, tra cứu, luyện tập).\n"
-        "   - **Là các câu chào hỏi, giao tiếp xã giao thông thường** (Ví dụ: 'chào bạn', 'bạn tên gì', 'giúp tôi').\n"
-        "   - Lịch trình, bài học,... (các chức năng của Notion, Google Drive, Google Calendar,...).\n"
-        "2. Trả lời 'NO' nếu:\n"
-        "   - Yêu cầu về code, toán học phức tạp, chính trị, hoặc các chủ đề hoàn toàn không liên quan (Ví dụ: 'viết code python', 'giải phương trình').\n\n"
-        f"Tin nhắn người dùng: {last_message.content}\n\n"
-        "Phân loại (chỉ trả lời đúng 1 từ YES hoặc NO):"
-    )
+    summary = state.get("summary", "")
+    
+    classification_prompt = f"""
+    --- Ký ức hội thoại (Summary) ---
+    {summary if summary else "Chưa có ký ức."}
 
-    response = llm_classification.invoke([HumanMessage(content=classification_prompt)])
-    classification = response.content.strip().upper()
+    --- 3 câu nói gần nhất của User ---
+    {conversation_context}
 
-    if classification == "YES":
-        intent = "SIGN_LANGUAGE_RELATED"
-    else:
-        intent = "NOT_RELATED"
+    --- Input hiện tại ---
+    {last_message.content}
+    
+    Yêu cầu: Dựa vào Ký ức và 3 câu gần nhất để hiểu các từ nối (ví dụ: "còn cái này", "thêm nữa", "vậy thì").
+    """
+    
+    try:
+        decision: IntentDecision = structured_classifier.invoke([
+                SystemMessage(content=CLASSIFIER_SYS_PROMPT),
+                HumanMessage(content=classification_prompt)
+            ])
+        
+        logger.info(f"[Classify Decision]: {decision.is_related} | Reason: {decision.reason}")
 
-    logger.info(f"[Node] Phân loại xong: {intent}")
+        if decision.is_related:
+            intent = "SIGN_LANGUAGE_RELATED"
+        else:
+            intent = "NOT_RELATED"
+    except Exception as e:
+        logger.error(f"Lỗi phân loại: {e}")
+        intent = "SIGN_LANGUAGE_RELATED" 
+
     return {"intent": intent}
 
 def llm_call(state: AgentState):
@@ -254,147 +286,244 @@ def llm_call(state: AgentState):
     messages = state["messages"]
     summary = state.get("summary", "")
 
-    valid_messages = []
-    for m in messages:
-        if isinstance(m, (HumanMessage, AIMessage, SystemMessage, ToolMessage)):
-            valid_messages.append(m)
+    # --- BEST PRACTICE: CLEANING ORPHANED TOOL MESSAGES ---
+    # Gemini sẽ báo lỗi 400 nếu thấy ToolMessage mà không có AIMessage (tool_calls) đứng ngay trước.
+    
+    # clean_messages = []
+    # for i, msg in enumerate(messages):
+    #     # Nếu là ToolMessage (kết quả tool)
+    #     if isinstance(msg, ToolMessage):
+    #         # Kiểm tra tin nhắn ĐÃ DUYỆT trước đó
+    #         if clean_messages and isinstance(clean_messages[-1], AIMessage) and clean_messages[-1].tool_calls:
+    #             # Kiểm tra ID khớp (Best practice nâng cao)
+    #             # Ở mức cơ bản, chỉ cần kiểm tra msg trước là AI có gọi tool là đủ
+    #             clean_messages.append(msg)
+    #         else:
+    #             logger.warning(f"⚠️ Đã loại bỏ ToolMessage 'mồ côi' (ID: {msg.id}) để tránh lỗi 400.")
+        
+    #     # Nếu là AIMessage (Lời AI nói)
+    #     elif isinstance(msg, AIMessage):
+    #         # Nếu AI gọi tool nhưng nội dung tool_calls rỗng (lỗi hiếm gặp), cũng nên lọc
+    #         if msg.tool_calls or msg.content:
+    #             clean_messages.append(msg)
+        
+    #     # Các tin nhắn khác (Human, System) giữ nguyên
+    #     else:
+    #         clean_messages.append(msg)
+    # # -------------------------------------------------------
+
+    # --- BEST PRACTICE: SANITIZATION (HỖ TRỢ PARALLEL TOOLS) ---
+    clean_messages = []
+    for i, msg in enumerate(messages):
+        # 1. Xử lý ToolMessage
+        if isinstance(msg, ToolMessage):
+            # ToolMessage hợp lệ nếu:
+            # - Trước nó là AIMessage (có gọi tool) -> Tool đầu tiên trong chuỗi
+            # - HOẶC Trước nó là một ToolMessage khác -> Tool thứ 2, 3... trong chuỗi song song
+            if clean_messages:
+                last_msg = clean_messages[-1]
+                is_prev_ai_calling = isinstance(last_msg, AIMessage) and last_msg.tool_calls
+                is_prev_tool = isinstance(last_msg, ToolMessage)
+                
+                if is_prev_ai_calling or is_prev_tool:
+                    clean_messages.append(msg)
+                else:
+                    logger.warning(f"⚠️ Loại bỏ ToolMessage mồ côi (ID: {msg.id})")
+            else:
+                logger.warning(f"⚠️ Loại bỏ ToolMessage mồ côi ở đầu hội thoại")
+        
+        # 2. Xử lý AIMessage
+        elif isinstance(msg, AIMessage):
+            # Giữ lại nếu có nội dung hoặc có gọi tool
+            if msg.content or msg.tool_calls:
+                clean_messages.append(msg)
+        
+        # 3. Các loại khác (Human, System) -> Giữ nguyên
+        else:
+            clean_messages.append(msg)
+    # -------------------------------------------------------
     
     # 2. Tạo System Prompt chứa Summary (Nếu có)
-    summary_context = f"\n\n### TÓM TẮT KÝ ỨC DÀI HẠN:\n{summary}" if summary else ""
     today_str = datetime.now().strftime("%Y-%m-%d (%A)")
 
-    DYNAMIC_SYSTEM_PROMPT = (
-        f"Bạn là trợ lý ảo thông minh đa năng. Hôm nay là ngày {today_str}.\n{summary_context}.\n"
-        "Bạn được trang bị hệ thống công cụ mạnh mẽ (MCP & RAG). Dưới đây là danh sách khả năng của bạn:\n\n"
-        "1. **GIA SƯ NGÔN NGỮ KÝ HIỆU (QUAN TRỌNG)**:\n"
-        "   - Khi dùng tool `search_sign_language_knowledge`, bạn sẽ nhận được một danh sách JSON gồm 5 mục (ID: 1 đến 5).\n"
-        "   - **Nhiệm vụ của bạn**:\n"
-        "     1. Đọc kỹ nội dung của cả 5 mục.\n"
-        "     2. Chọn ra **MỘT** mục có nội dung phù hợp nhất để trả lời user.\n"
-        "     3. Trả lời user dựa trên nội dung mục đó.\n"
-        "     4. **BẮT BUỘC**: Kết thúc câu trả lời bằng thẻ tham chiếu ID theo định dạng: `[[ID:x]]` (với x là số ID bạn chọn).\n"
-        "   - Ví dụ: 'Ký hiệu Bác sĩ được thực hiện bằng cách nắm tay lại... [[ID:2]]'\n"
-        "   - **Lưu ý**: Không tự bịa link ảnh/video. Chỉ cần đưa thẻ ID, hệ thống sẽ tự hiển thị ảnh/video.\n"
-        "2. **QUẢN LÝ NOTION (Tư duy và Kiến thức công cụ)**:\n"
-        "   - **Cơ chế định danh**: Notion API thao tác dựa trên `UUID` (ID), trong khi người dùng giao tiếp bằng `Tên trang`. Do đó, công cụ `API-post-search` đóng vai trò là 'cầu nối' quan trọng để chuyển đổi từ Tên sang ID khi cần thiết.\n"
-        "   - **Phân biệt chức năng ĐỌC**:\n"
-        "     + `API-retrieve-a-page`: Chỉ trả về thông tin meta (tiêu đề, người tạo, ngày tạo...), KHÔNG chứa nội dung bài viết.\n"
-        "     + `API-get-block-children`: Đây mới là công cụ dùng để **đọc nội dung chi tiết** (văn bản, hình ảnh) bên trong một trang.\n"
-        "   - **Phân biệt chức năng VIẾT**:\n"
-        "     + `API-post-page`: Dùng để **tạo mới hoàn toàn** một trang (Create New).\n"
-        "     + `API-patch-block-children`: Dùng để **viết thêm/chèn nội dung** vào cuối một trang đã tồn tại (Append/Update).\n"
-        "   - **QUY TẮC JSON NGHIÊM NGẶT CHO `API-patch-block-children`**:\n"
-        "     Tham số `children` PHẢI là một danh sách các block. Bạn KHÔNG được sáng tạo cấu trúc. Hãy copy y nguyên mẫu dưới đây và chỉ thay đổi phần nội dung:\n"
-        "     - Để viết nội dung vào một trang, bạn PHẢI dùng tool `API-patch-block-children`.\n"
-        "     Tool này yêu cầu tham số `children` là một danh sách JSON. Cấu trúc của Notion rất phức tạp, bạn KHÔNG ĐƯỢC tự sáng tạo.\n"
-        "     **MẪU CHUẨN (Copy y nguyên và chỉ thay nội dung):**\n"
-        "     Dưới đây là cấu trúc để viết đoạn văn bản: 'Nội dung của tôi'.\n"
-        "     ```json\n"
-        "     [\n"
-        "       {\n"
-        "         \"object\": \"block\",\n"
-        "         \"type\": \"paragraph\",\n"
-        "         \"paragraph\": {\n"
-        "           \"rich_text\": [\n"
-        "             {\n"
-        "               \"type\": \"text\",\n"
-        "               \"text\": {\n"
-        "                 \"content\": \"Nội dung của tôi\"\n" 
-        "               }\n"
-        "             }\n"
-        "           ]\n"
-        "         }\n"
-        "       }\n"
-        "     ]\n"
-        "     ```\n"
-        "     **Lưu ý kỹ thuật**: \n"
-        "     + Tuyệt đối không được bỏ bớt các lớp `rich_text` hay `paragraph`.\n"
-        "     + Nếu nội dung có dấu ngoặc kép, hãy escape nó (ví dụ: \\\").\n"
-        "     *Giải thích: Bạn phải bọc nội dung trong `text` -> `rich_text` -> `paragraph` -> `block`.*\n\n"
-        "   - **HƯỚNG DẪN ĐẶC BIỆT CHO `API-post-search`**:\n"
-        "     Model thường gặp lỗi khi tạo filter cho tool này. Hãy tuân thủ quy tắc:\n"
-        "     1. CHỈ sử dụng tham số `query`.\n"
-        "     2. KHÔNG BAO GIỜ thêm tham số `filter` hoặc `sort`.\n"
-        "     3. Ví dụ gọi đúng: `{\"query\": \"Ký hiệu xin lỗi\"}`\n"
-        "     4. Ví dụ SAI (Cấm dùng): `{\"query\": \"...\", \"filter\": {\"property\": ...}}`\n\n"
-        "   - **Quy tắc ứng xử**: Hãy tự đánh giá ngữ cảnh. Nếu THIẾU ID, hãy TỰ TÌM. Nếu cần đọc nội dung, hãy chọn đúng công cụ đọc block."
-        "   ĐỪNG hỏi lại người dùng những thứ bạn có thể tự tra cứu.\n\n"
+    dynamic_memory_section = f"""
+    =================================================================
+    ### BỐI CẢNH HIỆN TẠI (DYNAMIC CONTEXT) ###
+    
+    1. THỜI GIAN HỆ THỐNG: {today_str}
+    
+    2. TÓM TẮT HỘI THOẠI TRƯỚC ĐÓ (LONG-TERM MEMORY):
+    {summary if summary else "Chưa có ký ức nào được lưu trữ."}
+    
+    (Hãy sử dụng thông tin trên để duy trì mạch chuyện, nhưng không cần nhắc lại nếu không được hỏi).
+    =================================================================
+    """
 
-        "3. **QUẢN LÝ GOOGLE WORKSPACE**:\n"
-        "   - **Calendar (Tạo lịch)**: \n"
-        "     + BƯỚC 1: Gọi `get_current_time_tool`(Để biết thời gian + múi giờ hiện tại)\n"
-        "     + BƯỚC 2: Tự tính toán danh sách các ngày giờ cần tạo.\n"
-        "     + BƯỚC 3: **BẮT BUỘC** phải gọi tool `google_calendar_create_event` cho TỪNG sự kiện.\n"
-        "     + **CẢNH BÁO**: Tuyệt đối KHÔNG được trả lời là 'Đã tạo lịch' nếu bạn chưa thực sự gọi tool `google_calendar_create_event` và nhận được kết quả 'success' từ tool đó. Nếu chưa gọi tool, hãy gọi tool ngay."
-        "     + **QUAN TRỌNG**: Trường `start_time` và `end_time` PHẢI có múi giờ. Ví dụ ĐÚNG: `2025-11-27T10:00:00+07:00`\n"
-        "   - **Drive**: Dùng các tool tương ứng.\n\n"
-        "4. **QUY TẮC AN TOÀN**: Bạn được phép xử lý dữ liệu cá nhân (Lịch, Email) của user. KHÔNG tiết lộ API Key/Pass."
-    )
+    FULL_SYSTEM_PROMPT = f"{CORE_INSTRUCTIONS}\n{dynamic_memory_section}"
 
-    # messages_with_prompt = [HumanMessage(content=DYNAMIC_SYSTEM_PROMPT)]
-    # for msg in messages:
-    #     if isinstance(msg, HumanMessage) and "Bạn là trợ lý ảo" in msg.content:
-    #         continue
-    #     messages_with_prompt.append(msg)
-    # messages_with_prompt = [HumanMessage(content=DYNAMIC_SYSTEM_PROMPT)] + trimmed_history
-    messages_with_prompt = [SystemMessage(content=DYNAMIC_SYSTEM_PROMPT)] + valid_messages
+    messages_with_prompt = [SystemMessage(content=FULL_SYSTEM_PROMPT)] + clean_messages
 
-    response = llm_with_tools.invoke(messages_with_prompt)
-    return {"messages": [response]}
+    try:
+        response = llm_with_tools.invoke(messages_with_prompt)
+        return {"messages": [response]}
+    except Exception as e:
+        logger.error(f"Lỗi khi gọi Gemini: {e}")
+        return {"messages": [AIMessage(content="Xin lỗi, hệ thống đang gặp gián đoạn. Bạn vui lòng thử lại sau nhé.")]}
+    
 
+# def summarize_conversation(state: AgentState):
+#     """Node duy trì bộ nhớ: Cắt gọt thông minh (Smart Trimming)."""
+#     logger.info("[Node] Đang kích hoạt Tóm tắt & Dọn dẹp...")
+    
+#     messages = state["messages"]
+#     existing_summary = state.get("summary", "")
+    
+#     # 1. Tìm điểm cắt an toàn (Safe Cut Point)
+#     # Chúng ta muốn giữ lại khoảng 4-6 lượt hội thoại gần nhất.
+#     # Điểm cắt lý tưởng là ngay trước một HumanMessage.
+    
+#     KEEP_TURNS = 4  # Giữ lại 4 cặp câu hỏi-trả lời gần nhất
+#     human_msg_indices = [i for i, m in enumerate(messages) if isinstance(m, HumanMessage)]
+    
+#     if len(human_msg_indices) <= KEEP_TURNS:
+#         return {"messages": []} # Chưa đủ dài để tóm tắt
+    
+#     # Xác định chỉ mục cắt: Giữ lại từ tin nhắn Human thứ (Tổng - KEEP_TURNS) trở đi
+#     cutoff_index = human_msg_indices[-KEEP_TURNS]
+    
+#     # Danh sách cần tóm tắt (cũ) và Danh sách giữ lại (mới)
+#     messages_to_summarize = messages[:cutoff_index]
+    
+#     if not messages_to_summarize:
+#         return {"messages": []}
+
+#     # 2. Tạo Prompt tóm tắt (Giữ nguyên logic cũ của bạn)
+#     conversation_text = ""
+#     for msg in messages_to_summarize:
+#         role = "User" if isinstance(msg, HumanMessage) else "AI"
+#         if isinstance(msg, ToolMessage): role = "Tool Result"
+#         conversation_text += f"{role}: {msg.content}\n"
+        
+#     prompt = (
+#         f"Ký ức cũ: {existing_summary}\n\n"
+#         "Hãy cập nhật ký ức trên với thông tin mới sau đây (chỉ giữ lại thông tin quan trọng như lịch hẹn, tên riêng, sở thích):\n"
+#         f"{conversation_text}\n"
+#         "Ký ức mới:"
+#     )
+
+#     # 3. Gọi LLM tạo Summary
+#     summary_message = llm_lightweight.invoke([HumanMessage(content=prompt)])
+#     new_summary = summary_message.content
+    
+#     # 4. Xóa tin nhắn cũ
+#     delete_messages = [RemoveMessage(id=m.id) for m in messages_to_summarize]
+    
+#     return {
+#         "summary": new_summary,
+#         "messages": delete_messages
+#     }
+# [FILE: agent_graph.py]
+
+ # ==========================================
+# NODE: SUMMARIZE CONVERSATION (BEST PRACTICE)
+# ==========================================
 def summarize_conversation(state: AgentState):
     """
-    Node duy trì bộ nhớ: Nén tin nhắn cũ vào summary và xóa chúng khỏi DB.
+    Node duy trì bộ nhớ: Giữ lại đúng 3 cặp hội thoại gần nhất (User-AI),
+    tóm tắt và xóa các tin nhắn cũ hơn để giải phóng Context Window.
     """
-    logger.info("[Node] Đang kích hoạt Tóm tắt & Dọn dẹp...")
+    logger.info("[Node] Đang kích hoạt Tóm tắt & Dọn dẹp (Smart Trimming)...")
     
-    # 1. Cấu hình
     messages = state["messages"]
     existing_summary = state.get("summary", "")
     
-    # Chúng ta muốn giữ lại 6 tin nhắn mới nhất (3 cặp hỏi-đáp) để hội thoại tự nhiên
-    # Các tin nhắn cũ hơn sẽ bị đem đi tóm tắt
-    KEEP_LAST_N = 6 
+    # CẤU HÌNH: Giữ lại 3 lượt hội thoại (3 Human + Các AI/Tool đi kèm)
+    # Lượt hiện tại (vừa chat xong) cũng được tính là 1.
+    KEEP_LAST_N_TURNS = 3
     
-    if len(messages) <= KEEP_LAST_N:
-        # Nếu chưa đủ dài thì không làm gì cả (phòng hờ)
+    # 1. Lọc ra danh sách các HumanMessage để làm "Mốc Neo"
+    human_msgs = [m for m in messages if isinstance(m, HumanMessage)]
+    
+    # Nếu lịch sử chưa đủ dài -> Không làm gì cả
+    if len(human_msgs) <= KEEP_LAST_N_TURNS:
+        logger.info(f"Hội thoại ngắn ({len(human_msgs)} lượt User), chưa cần tóm tắt.")
+        return {"messages": []}
+    
+    # 2. Xác định tin nhắn mốc (Pivot Message)
+    # Chúng ta muốn giữ lại từ tin nhắn Human thứ 3 (tính từ dưới lên) trở về sau.
+    pivot_message = human_msgs[-KEEP_LAST_N_TURNS]
+    
+    try:
+        # Tìm vị trí (index) của tin nhắn mốc trong danh sách gốc
+        cutoff_index = messages.index(pivot_message)
+    except ValueError:
+        logger.error("Lỗi: Không tìm thấy pivot message trong danh sách.")
         return {"messages": []}
 
-    # Tách danh sách: Cũ (cần tóm tắt) vs Mới (giữ lại)
-    messages_to_summarize = messages[:-KEEP_LAST_N] 
-    
-    # 2. Tạo Prompt tóm tắt
-    # Ghép summary cũ + nội dung tin nhắn cần nén
-    prompt = (
-        "Hãy đóng vai một chuyên gia lưu trữ thông tin. \n"
-        f"Ký ức hiện tại: {existing_summary}\n\n"
-        "Hãy cập nhật Ký ức trên bằng cách thêm vào các thông tin quan trọng từ đoạn hội thoại mới sau đây:\n"
-    )
-    
-    # Format tin nhắn cũ thành dạng text để LLM đọc
+    # Safety check: Nếu index = 0 thì nghĩa là giữ lại tất cả -> Return
+    if cutoff_index <= 0:
+        return {"messages": []}
+
+    # 3. Phân chia: Cũ (cần tóm tắt & xóa) vs Mới (giữ lại)
+    # messages[:cutoff_index] là toàn bộ lịch sử TRƯỚC lượt hội thoại mốc.
+    messages_to_summarize = messages[:cutoff_index]
+
+    if not messages_to_summarize:
+        return {"messages": []}
+
+    # 4. Tạo nội dung để đưa vào Prompt tóm tắt
     conversation_text = ""
     for msg in messages_to_summarize:
-        role = "User" if isinstance(msg, HumanMessage) else "AI"
-        conversation_text += f"{role}: {msg.content}\n"
-        
-    prompt += conversation_text
-    prompt += "\nKý ức mới (ngắn gọn, súc tích, giữ lại tên riêng/thông tin chính):"
+        if isinstance(msg, HumanMessage):
+            conversation_text += f"User: {msg.content}\n"
+        elif isinstance(msg, AIMessage):
+            # Ưu tiên ghi nhận hành động gọi Tool
+            if msg.tool_calls:
+                tool_names = ", ".join([t['name'] for t in msg.tool_calls])
+                conversation_text += f"AI (Action): Đã gọi công cụ [{tool_names}]\n"
+            # Ghi nhận nội dung nói (nếu có)
+            if msg.content:
+                conversation_text += f"AI (Say): {msg.content}\n"
+        elif isinstance(msg, ToolMessage):
+            # Chỉ ghi dấu là có kết quả tool, tránh dump JSON dài dòng
+            conversation_text += f"System (Tool Output): Kết quả từ tool [{msg.name}] đã trả về thành công.\n"
 
-    # 3. Gọi LLM để sinh Summary mới
-    # Nên dùng model nhẹ (Flash Lite) ở đây để tiết kiệm tiền/thời gian
-    summary_message = llm.invoke([HumanMessage(content=prompt)])
-    new_summary = summary_message.content
+    # 5. Gọi LLM để cập nhật Summary
+    new_summary = existing_summary
+    if conversation_text.strip():
+        prompt = (
+            f"Ký ức hiện tại: {existing_summary}\n\n"
+            "Nội dung hội thoại cũ vừa trôi qua (cần lưu trữ vào ký ức dài hạn):\n"
+            f"{conversation_text}\n"
+            "Yêu cầu: Hãy cập nhật Ký ức hiện tại dựa trên nội dung cũ ở trên. "
+            "1. Giữ lại thông tin quan trọng: Lịch hẹn đã tạo, Tên riêng, Sở thích, Kết quả tra cứu quan trọng.\n"
+            "2. Bỏ qua các câu chào hỏi xã giao hoặc chi tiết kỹ thuật thừa.\n"
+            "3. Tóm tắt ngắn gọn dưới dạng gạch đầu dòng.\n"
+            "4. Thêm câu query gần nhất của người dùng vào cuối bản tóm tắt.\n"
+            "Ký ức mới:"
+        )
+        
+        try:
+            # Dùng model nhẹ (Flash Lite) để tóm tắt cho nhanh và rẻ
+            summary_message = llm_lightweight.invoke([HumanMessage(content=prompt)])
+            new_summary = summary_message.content
+        except Exception as e:
+            logger.error(f"Lỗi khi gọi model tóm tắt: {e}")
+            # Nếu lỗi tóm tắt, KHÔNG xóa tin nhắn để tránh mất dữ liệu
+            return {"messages": []}
+
+    # 6. Tạo lệnh xóa tin nhắn (RemoveMessage)
+    delete_ops = []
+    for m in messages_to_summarize:
+        # Chỉ xóa nếu tin nhắn có ID (đã được lưu trong DB)
+        if m.id: 
+            delete_ops.append(RemoveMessage(id=m.id))
     
-    # 4. XÓA TIN NHẮN CŨ KHỎI SQLITE
-    # Tạo danh sách lệnh xóa tương ứng với các tin nhắn đã tóm tắt
-    delete_messages = [RemoveMessage(id=m.id) for m in messages_to_summarize]
-    
-    logger.info(f"Đã nén {len(messages_to_summarize)} tin nhắn cũ thành Summary.")
-    
-    # Trả về: Summary mới VÀ Lệnh xóa tin nhắn cũ
+    logger.info(f"Đã tóm tắt thành công. Xóa {len(delete_ops)} tin nhắn cũ. Giữ lại từ tin nhắn User: {pivot_message.content[:20]}...")
+
     return {
         "summary": new_summary,
-        "messages": delete_messages
+        "messages": delete_ops
     }
 
 def refuse_response(state: AgentState):
@@ -415,7 +544,7 @@ def refuse_response(state: AgentState):
 
     # Gọi LLM Classification (Model nhẹ) hoặc LLM chính
     # Lưu ý: Phải truyền đúng cấu trúc [SystemMessage, HumanMessage]
-    response = llm_classification.invoke([
+    response = llm_lightweight.invoke([
         SystemMessage(content=system_prompt),
         HumanMessage(content=last_message.content)
     ])
@@ -510,7 +639,11 @@ def build_agent_graph(mcp_tools: List[BaseTool], checkpointer):
     def route_condition(state):
         if state["messages"][-1].tool_calls:
             return "tool_node"
-        if len(state["messages"]) > 12:
+        count = 0
+        for msg in state["messages"]:
+            if isinstance(msg, HumanMessage):
+                count += 1
+        if count >= 10:
             return "summarize_conversation"
         return END
 
