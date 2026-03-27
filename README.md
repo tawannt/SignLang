@@ -22,10 +22,10 @@ It provides a rich and high-quality vocabulary dataset covering basic vocabulary
 
 <br clear="all">
 
-
 <p align="center">
   <img src="./images/dataInfo.png" alt="Data Info" width="700">
 </p>
+
 ---
 
 ## 🏗️ 2. Main Architecture
